@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    {% if page.tags %}
+    <p class="post-tags">
+      {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+    </p>
+    {% endif %}
+    <h1>{{ page.title }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      {% if page.reading_time %} · {{ page.reading_time }} min read{% endif %}
+    </p>
+    {% if page.affiliate %}
+    <p class="affiliate-badge">This piece includes a disclosed referral link — see the <a href="{{ '/disclosure/' | relative_url }}">disclosure</a>.</p>
+    {% endif %}
+  </header>
+
+  <div class="post-body">
+    {{ content }}
+  </div>
+
+  <footer class="post-footer">
+    <p><a href="{{ '/' | relative_url }}">&larr; Back to all articles</a></p>
+  </footer>
+</article>

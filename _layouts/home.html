@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<section class="hero">
+  <p class="eyebrow">Compound Notes</p>
+  <h1>{{ site.tagline }}</h1>
+  <p class="hero-lede">{{ site.description }}</p>
+</section>
+
+<section class="post-list" aria-label="All articles">
+  {% for post in site.posts %}
+  <article class="post-card">
+    <p class="post-card-meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+      {% if post.reading_time %} · {{ post.reading_time }} min read{% endif %}
+    </p>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p class="post-card-excerpt">{{ post.description | default: post.excerpt | strip_html | truncatewords: 32 }}</p>
+    <a class="post-card-link" href="{{ post.url | relative_url }}">Read the piece →</a>
+  </article>
+  {% endfor %}
+</section>

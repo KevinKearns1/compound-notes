@@ -1,0 +1,43 @@
+title: Compound Notes
+tagline: Money lessons most people don't learn until their 30s
+description: >-
+  Plain-language investing and money guidance for people who'd rather
+  start now than wish they had later — written for beginners, college
+  students, and anyone who never got a straight answer on where to start.
+url: "https://kevinkearns1.github.io"
+baseurl: "/compound-notes"
+lang: en-US
+
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: /:title/
+
+collections_dir: .
+show_excerpts: true
+excerpt_separator: "<!--more-->"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  path: feed.xml
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
