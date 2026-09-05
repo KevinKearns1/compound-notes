@@ -7,6 +7,7 @@ description: >-
 url: "https://kevinkearns1.github.io"
 baseurl: "/compound-notes"
 lang: en-US
+google_analytics: G-FLXES6J949
 
 markdown: kramdown
 kramdown:
