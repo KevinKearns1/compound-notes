@@ -1,14 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Two paths diverging from one point: a nearly flat line for savings and a steeply rising line for investing">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Two paths diverging from one point: a nearly flat path ending at a small stack of coins, and a steep path climbing to a small flag at the peak">
+  <defs>
+    <pattern id="hatch3" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.35"/>
+    </pattern>
+    <filter id="grain3" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
   <rect width="600" height="400" fill="#E3E7D9"/>
-  <line x1="60" y1="330" x2="540" y2="330" stroke="#CAD0BC" stroke-width="2"/>
 
-  <circle cx="90" cy="300" r="7" fill="#1E2A20"/>
+  <path d="M0,232 C150,206 300,222 450,202 C500,195 550,200 600,192"
+        fill="none" stroke="#54604F" stroke-width="2" opacity="0.3"/>
+  <path d="M0,262 C180,247 320,257 480,240 C540,233 570,237 600,232"
+        fill="none" stroke="#54604F" stroke-width="2" opacity="0.25"/>
+  <path d="M320,204 C360,150 420,140 460,148 C420,155 380,175 360,204 Z"
+        fill="url(#hatch3)" opacity="0.4"/>
 
-  <path d="M90,300 C220,296 350,290 520,278"
-        fill="none" stroke="#54604F" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
-  <circle cx="520" cy="278" r="7" fill="#54604F"/>
+  <line x1="40" y1="332" x2="560" y2="332" stroke="#CAD0BC" stroke-width="2"/>
 
-  <path d="M90,300 C220,270 380,140 520,66"
-        fill="none" stroke="#1B6E5C" stroke-width="4.5" stroke-linecap="round"/>
-  <circle cx="520" cy="66" r="9" fill="#A9781F"/>
+  <path d="M90,296 C220,266 380,136 520,62 L520,70 C380,144 220,274 90,306 Z" fill="#12503F"/>
+  <path d="M90,295 C220,291 350,286 520,278 L520,282 C350,290 220,295 90,305 Z" fill="#54604F" opacity="0.85"/>
+
+  <circle cx="90" cy="300" r="9" fill="#1E2A20"/>
+
+  <ellipse cx="520" cy="282" rx="26" ry="8" fill="#F1F2E9" stroke="#1E2A20" stroke-width="2"/>
+  <ellipse cx="524" cy="270" rx="26" ry="8" fill="#EEF0E6" stroke="#1E2A20" stroke-width="2"/>
+
+  <line x1="520" y1="62" x2="520" y2="18" stroke="#1E2A20" stroke-width="3" stroke-linecap="round"/>
+  <path d="M520,20 L556,32 L520,44 Z" fill="#1B6E5C" stroke="#1E2A20" stroke-width="2" stroke-linejoin="round"/>
+
+  <rect width="600" height="400" filter="url(#grain3)" style="mix-blend-mode:multiply" opacity="0.5"/>
 </svg>

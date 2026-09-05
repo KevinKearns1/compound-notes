@@ -1,18 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="A stack of three overlapping notecards with lines of handwritten-style notes, illustrating lessons collected over time">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="An open notebook with handwritten lines, one underlined in the accent color, and a pencil resting across it">
+  <defs>
+    <pattern id="hatch2" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.4"/>
+    </pattern>
+    <filter id="grain2" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
   <rect width="600" height="400" fill="#E3E7D9"/>
 
-  <g transform="rotate(-7 300 200)">
-    <rect x="170" y="130" width="300" height="180" rx="14" fill="#D9DECB" stroke="#CAD0BC" stroke-width="2"/>
-  </g>
-  <g transform="rotate(4 300 200)">
-    <rect x="160" y="120" width="300" height="180" rx="14" fill="#EEF0E6" stroke="#CAD0BC" stroke-width="2"/>
+  <g transform="rotate(-6 300 210)">
+    <ellipse cx="315" cy="330" rx="150" ry="14" fill="url(#hatch2)" opacity="0.35"/>
+    <path d="M170,110 L426,110 L460,144 L460,320 L170,320 Z" fill="#F1F2E9" stroke="#1E2A20" stroke-width="2.5"/>
+    <path d="M426,110 L460,110 L460,144 Z" fill="url(#hatch2)" stroke="#1E2A20" stroke-width="1.5"/>
+    <line x1="215" y1="112" x2="215" y2="318" stroke="#CAD0BC" stroke-width="2"/>
+
+    <path d="M200,158 Q290,150 380,158" fill="none" stroke="#54604F" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+    <path d="M200,186 Q305,178 410,190" fill="none" stroke="#54604F" stroke-width="5" stroke-linecap="round" opacity="0.45"/>
+    <path d="M200,214 Q270,207 336,214" fill="none" stroke="#54604F" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+    <path d="M200,250 Q300,242 392,251" fill="none" stroke="#1B6E5C" stroke-width="6" stroke-linecap="round"/>
+    <path d="M204,262 Q300,257 386,264" fill="none" stroke="#1B6E5C" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <path d="M200,286 Q260,280 312,287" fill="none" stroke="#54604F" stroke-width="5" stroke-linecap="round" opacity="0.4"/>
   </g>
 
-  <rect x="150" y="108" width="300" height="184" rx="14" fill="#F6F7F0" stroke="#1E2A20" stroke-width="2.5"/>
-  <line x1="182" y1="152" x2="380" y2="152" stroke="#54604F" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
-  <line x1="182" y1="180" x2="418" y2="180" stroke="#54604F" stroke-width="6" stroke-linecap="round" opacity="0.4"/>
-  <line x1="182" y1="208" x2="350" y2="208" stroke="#54604F" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
-  <line x1="182" y1="236" x2="390" y2="236" stroke="#1B6E5C" stroke-width="6" stroke-linecap="round"/>
+  <g transform="rotate(21 330 300)">
+    <rect x="452" y="283" width="24" height="17" rx="3" fill="#54604F" stroke="#1E2A20" stroke-width="2"/>
+    <rect x="432" y="283" width="22" height="17" fill="#A9781F" stroke="#1E2A20" stroke-width="2"/>
+    <rect x="190" y="283" width="244" height="17" fill="#A9781F" stroke="#1E2A20" stroke-width="2"/>
+    <line x1="220" y1="283" x2="220" y2="300" stroke="#1E2A20" stroke-width="1" opacity="0.35"/>
+    <line x1="260" y1="283" x2="260" y2="300" stroke="#1E2A20" stroke-width="1" opacity="0.35"/>
+    <line x1="300" y1="283" x2="300" y2="300" stroke="#1E2A20" stroke-width="1" opacity="0.35"/>
+    <path d="M190,283 L190,300 L158,291 Z" fill="#F1F2E9" stroke="#1E2A20" stroke-width="2"/>
+    <path d="M158,291 L172,286 L172,296 Z" fill="#1E2A20"/>
+  </g>
 
-  <circle cx="428" cy="132" r="10" fill="#A9781F"/>
+  <rect width="600" height="400" filter="url(#grain2)" style="mix-blend-mode:multiply" opacity="0.5"/>
 </svg>
