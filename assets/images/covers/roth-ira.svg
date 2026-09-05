@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="A sealed glass jar holding coins and a small sprout, tagged with a label, illustrating money set aside to grow untouched until later">
+  <defs>
+    <pattern id="hatch4" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.35"/>
+    </pattern>
+    <filter id="grain4" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+  <line x1="40" y1="340" x2="560" y2="340" stroke="#CAD0BC" stroke-width="2"/>
+  <ellipse cx="300" cy="342" rx="110" ry="14" fill="url(#hatch4)" opacity="0.45"/>
+
+  <path d="M226,150 L226,110 C226,96 236,86 252,86 L348,86 C364,86 374,96 374,110 L374,150
+           C374,150 400,170 400,260 C400,320 360,338 300,338 C240,338 200,320 200,260
+           C200,170 226,150 226,150 Z"
+        fill="#F1F2E9" stroke="#1E2A20" stroke-width="3"/>
+
+  <path d="M370,150 C392,168 400,200 400,260 C400,318 362,338 300,338 L300,150 Z"
+        fill="url(#hatch4)" opacity="0.3"/>
+
+  <rect x="222" y="78" width="156" height="22" rx="6" fill="#54604F" stroke="#1E2A20" stroke-width="3"/>
+
+  <ellipse cx="300" cy="290" rx="70" ry="17" fill="#EEF0E6" stroke="#1E2A20" stroke-width="2.5"/>
+  <ellipse cx="300" cy="290" rx="50" ry="9" fill="none" stroke="#1E2A20" stroke-width="1.2" opacity="0.35"/>
+  <ellipse cx="308" cy="266" rx="70" ry="17" fill="#F6F7F0" stroke="#1E2A20" stroke-width="2.5"/>
+  <ellipse cx="308" cy="266" rx="50" ry="9" fill="none" stroke="#1E2A20" stroke-width="1.2" opacity="0.35"/>
+  <ellipse cx="294" cy="242" rx="70" ry="17" fill="#EEF0E6" stroke="#1E2A20" stroke-width="2.5"/>
+  <ellipse cx="294" cy="242" rx="50" ry="9" fill="none" stroke="#1E2A20" stroke-width="1.2" opacity="0.35"/>
+
+  <path d="M296,236 C292,206 302,182 296,158 C292,142 300,128 312,120"
+        fill="none" stroke="#12503F" stroke-width="6" stroke-linecap="round"/>
+  <path d="M232,150 C374,150 374,150 374,150" fill="none" stroke="#1E2A20" stroke-width="0" opacity="0"/>
+
+  <path d="M270,140 C250,120 254,96 276,88 C264,108 268,126 282,138 Z" fill="#1B6E5C"/>
+  <path d="M312,120 C300,98 306,76 330,70 C316,90 318,108 332,120 Z" fill="#1B6E5C"/>
+  <path d="M312,120 C328,104 350,104 362,122 C344,116 328,120 316,132 Z" fill="#12503F" opacity="0.9"/>
+
+  <line x1="222" y1="90" x2="178" y2="68" stroke="#1E2A20" stroke-width="2" opacity="0.6"/>
+  <g transform="rotate(-20 150 66)">
+    <rect x="114" y="50" width="66" height="32" rx="5" fill="#A9781F" stroke="#1E2A20" stroke-width="2.5"/>
+    <circle cx="128" cy="66" r="4.5" fill="#E3E7D9" stroke="#1E2A20" stroke-width="1.5"/>
+  </g>
+
+  <rect width="600" height="400" filter="url(#grain4)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
