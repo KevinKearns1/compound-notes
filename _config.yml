@@ -13,7 +13,6 @@ kramdown:
   input: GFM
 permalink: /:title/
 
-collections_dir: .
 show_excerpts: true
 excerpt_separator: "<!--more-->"
 

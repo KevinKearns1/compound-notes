@@ -18,6 +18,10 @@ layout: default
     {% endif %}
   </header>
 
+  {% if page.cover %}
+  <img class="post-cover" src="{{ page.cover | relative_url }}" alt="{{ page.cover_alt | default: '' }}" width="600" height="400">
+  {% endif %}
+
   <div class="post-body">
     {{ content }}
   </div>

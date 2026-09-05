@@ -7,7 +7,8 @@ description: How Compound Notes makes money, including its use of referral and a
 
 **Short version:** some links on this site are referral links. If you sign up through one, the site's writer may earn a referral reward or commission at no extra cost to you. That's disclosed on the specific page it applies to, not just here.
 
-**Longer version:**
+<details class="disclosure-details" markdown="1">
+<summary>Read the longer version</summary>
 
 - Compound Notes is not sponsored content produced for a brand. Nobody pays for coverage or a favorable mention. The referral programs linked here are ones the writer actually uses personally.
 - When a referral or affiliate link appears in an article, the article says so directly, next to the link — not only in this footer-page disclosure. If you can't find the disclosure near a link, that's a bug; assume the link is not to be trusted until it's fixed.
@@ -16,3 +17,5 @@ description: How Compound Notes makes money, including its use of referral and a
 - This site is written by one individual and is not affiliated with, operated by, or endorsed by any brokerage, bank, or financial company mentioned in its articles.
 
 If anything on this site reads like it's optimized for a click instead of being honest, that's a failure of the site, not a feature of it — and it's worth pointing out.
+
+</details>

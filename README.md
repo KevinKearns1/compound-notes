@@ -18,6 +18,8 @@ description: "One or two sentences — this becomes the meta description and Goo
 tags: [tag-one, tag-two]
 affiliate: true   # only include this line if the post has a referral/affiliate link
 reading_time: 6   # rough estimate, minutes
+cover: /assets/images/covers/your-cover.svg   # shown on the homepage card and at the top of the post
+cover_alt: "Plain-language description of the cover image, for screen readers"
 ---
 ```
 
