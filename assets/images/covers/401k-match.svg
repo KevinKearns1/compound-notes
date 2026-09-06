@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="A single coin dropped into a slot coming out doubled on the other side, illustrating an employer 401(k) match">
+  <defs>
+    <pattern id="hatch5" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.35"/>
+    </pattern>
+    <filter id="grain5" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+  <line x1="40" y1="336" x2="560" y2="336" stroke="#CAD0BC" stroke-width="2"/>
+
+  <path d="M92,142 C92,120 106,104 128,100 L128,64 C128,50 138,40 152,40 C166,40 176,50 176,64 L176,100
+           C198,104 212,120 212,142 L212,300 L92,300 Z"
+        fill="#F1F2E9" stroke="#1E2A20" stroke-width="3"/>
+  <path d="M176,100 C198,104 212,120 212,142 L212,300 L176,300 Z" fill="url(#hatch5)" opacity="0.3"/>
+  <rect x="120" y="150" width="64" height="14" rx="6" fill="#1E2A20"/>
+
+  <ellipse cx="152" cy="30" rx="34" ry="11" fill="#A9781F" stroke="#1E2A20" stroke-width="2.5"/>
+  <ellipse cx="152" cy="30" rx="22" ry="5.5" fill="none" stroke="#1E2A20" stroke-width="1" opacity="0.4"/>
+  <path d="M118,30 L118,58 C118,64 134,68 152,68 C170,68 186,64 186,58 L186,30"
+        fill="#A9781F" stroke="#1E2A20" stroke-width="2.5"/>
+  <line x1="152" y1="72" x2="152" y2="102" stroke="#1E2A20" stroke-width="2.5" stroke-dasharray="2 7" stroke-linecap="round" opacity="0.6"/>
+
+  <ellipse cx="330" cy="264" rx="52" ry="15" fill="#EEF0E6" stroke="#1E2A20" stroke-width="2.5"/>
+  <ellipse cx="330" cy="264" rx="36" ry="8" fill="none" stroke="#1E2A20" stroke-width="1.2" opacity="0.4"/>
+  <path d="M278,264 L278,238 C278,232 302,228 330,228 C358,228 382,232 382,238 L382,264"
+        fill="#EEF0E6" stroke="#1E2A20" stroke-width="2.5"/>
+
+  <ellipse cx="452" cy="230" rx="52" ry="15" fill="#F1F2E9" stroke="#1E2A20" stroke-width="2.5"/>
+  <ellipse cx="452" cy="230" rx="36" ry="8" fill="none" stroke="#1E2A20" stroke-width="1.2" opacity="0.4"/>
+  <path d="M400,230 L400,204 C400,198 424,194 452,194 C480,194 504,198 504,204 L504,230"
+        fill="#1B6E5C" stroke="#1E2A20" stroke-width="2.5"/>
+
+  <path d="M212,180 C250,178 270,180 296,192" fill="none" stroke="#1E2A20" stroke-width="2" stroke-dasharray="1 8" stroke-linecap="round" opacity="0.5"/>
+  <path d="M330,228 C365,210 400,200 418,196" fill="none" stroke="#1E2A20" stroke-width="2" stroke-dasharray="1 8" stroke-linecap="round" opacity="0.5"/>
+
+  <g stroke="#A9781F" stroke-width="3" stroke-linecap="round">
+    <line x1="500" y1="150" x2="500" y2="130"/>
+    <line x1="516" y1="158" x2="530" y2="146"/>
+    <line x1="524" y1="174" x2="544" y2="174"/>
+  </g>
+
+  <rect width="600" height="400" filter="url(#grain5)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
