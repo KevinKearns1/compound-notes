@@ -10,6 +10,7 @@ tags: [getting started, college, brokerage accounts]
 affiliate: true
 reading_time: 7
 cover: /assets/images/covers/college-investing.svg
+image: /assets/images/covers/college-investing.png
 cover_alt: "A staircase of rising bars with a line climbing across their tops"
 ---
 

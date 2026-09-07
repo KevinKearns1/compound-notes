@@ -8,6 +8,7 @@ description: >-
 tags: [fundamentals, mindset]
 reading_time: 8
 cover: /assets/images/covers/lessons-learned.svg
+image: /assets/images/covers/lessons-learned.png
 cover_alt: "A stack of three overlapping notecards with lines of notes"
 ---
 

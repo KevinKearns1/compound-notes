@@ -20,7 +20,20 @@ affiliate: true   # only include this line if the post has a referral/affiliate 
 reading_time: 6   # rough estimate, minutes
 cover: /assets/images/covers/your-cover.svg   # shown on the homepage card and at the top of the post
 cover_alt: "Plain-language description of the cover image, for screen readers"
+image: /assets/images/covers/your-cover.png   # PNG render of the same cover, used for og:image / Twitter card
 ---
+```
+
+`image` matters because most social platforms (Twitter/X, Facebook, LinkedIn,
+plus Google's rich-result previews) don't reliably render SVG for link
+previews — only `cover` (the SVG) is used on-page. Render the PNG from the
+SVG at 1200x800 (2x the on-page size) with headless Chrome, e.g.:
+
+```
+/opt/pw-browsers/chromium-1194/chrome-linux/chrome --headless --disable-gpu \
+  --no-sandbox --screenshot=assets/images/covers/your-cover.png \
+  --window-size=1200,800 --hide-scrollbars \
+  file://$(pwd)/assets/images/covers/your-cover.svg
 ```
 
 Then write the post in Markdown below the front matter. Put `<!--more-->`

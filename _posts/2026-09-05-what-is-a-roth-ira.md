@@ -9,6 +9,7 @@ description: >-
 tags: [retirement, fundamentals, getting started]
 reading_time: 7
 cover: /assets/images/covers/roth-ira.svg
+image: /assets/images/covers/roth-ira.png
 cover_alt: "A sealed glass jar holding coins and a small sprout, tagged with a label, illustrating money set aside to grow untouched until later"
 ---
 

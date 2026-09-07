@@ -9,6 +9,7 @@ description: >-
 tags: [fundamentals, getting started]
 reading_time: 6
 cover: /assets/images/covers/saving-vs-investing.svg
+image: /assets/images/covers/saving-vs-investing.png
 cover_alt: "Two paths diverging: a nearly flat line for savings and a steeply rising line for investing"
 ---
 

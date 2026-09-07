@@ -9,6 +9,7 @@ description: >-
 tags: [retirement, fundamentals, workplace benefits]
 reading_time: 6
 cover: /assets/images/covers/401k-match.svg
+image: /assets/images/covers/401k-match.png
 cover_alt: "A single coin dropped into a slot coming out doubled on the other side, illustrating an employer 401(k) match"
 ---
 
