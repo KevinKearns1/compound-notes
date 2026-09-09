@@ -13,7 +13,7 @@ image: /assets/images/covers/index-vs-stocks.png
 cover_alt: "A single wide basket holding many small identical shapes next to one tall narrow jar holding one large shape, illustrating a diversified fund versus one individual stock"
 ---
 
-Every explainer on this site so far has casually said "a broad index fund" without stopping to explain why that's the default answer instead of "pick a few good companies and buy their stock." Both are real ways to invest. They're not the same decision, and beginners are usually pointed toward one of them for reasons worth actually understanding instead of just accepting.
+I've casually said "a broad index fund" in almost everything I've written on here, without stopping to explain why that's the default answer instead of "pick a few good companies and buy their stock." Both are real ways to invest. They're not the same decision, and beginners are usually pointed toward one of them for reasons worth actually understanding instead of just accepting.
 
 ## What each one actually is
 

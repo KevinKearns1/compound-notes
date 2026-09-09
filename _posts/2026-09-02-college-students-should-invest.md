@@ -50,9 +50,9 @@ A few things that trip people up before they even start:
 The mechanical part is the easy part — it's a form, an ID, and a bank transfer, same as opening any bank account. Most major brokerages (Fidelity, Schwab, Robinhood, and others) let you open an individual brokerage account online in about ten minutes with no minimum deposit required to get started.
 
 <div class="cta-box">
-<p>I personally use <strong>Robinhood</strong> and if you're deciding where to open your first account, here's my referral link. If you sign up and fund an account through it, I get a referral reward from Robinhood, and you may get a stock reward too — Robinhood sets the exact terms and they change over time, so check them directly rather than trusting a number from me.</p>
+<p>I personally use <strong>Robinhood</strong>, and if you're deciding where to open your first account, here's my referral link. Disclosure: if you sign up and fund an account through it, we both get a free stock or cash reward — you get $5–$200, I get $50.</p>
 <p><a class="cta-btn" href="https://join.robinhood.com/kevink1479" target="_blank" rel="noopener nofollow sponsored">Open a Robinhood account →</a></p>
-<p class="cta-fineprint">This is a disclosed referral link (see the <a href="/compound-notes/disclosure/">full disclosure</a>). No obligation to use it — any no-minimum brokerage works for the strategy in this article.</p>
+<p class="cta-fineprint">See the <a href="{{ '/disclosure/' | relative_url }}">full disclosure</a>. No obligation to use it — any no-minimum brokerage works for the strategy in this article.</p>
 </div>
 
 Whichever brokerage you choose, the actual first move is the same: set up a small, automatic, recurring transfer — even $20 a month — into a broad index fund, and then leave it alone. The goal at 20 isn't to get rich by 25. It's to make investing a background habit, the same way you'd set up autopay on a phone bill, so that by the time you do have real income, you're not starting from zero and you're not starting from scratch on the habit either.
