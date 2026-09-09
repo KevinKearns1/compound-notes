@@ -379,6 +379,14 @@ a:focus-visible{ outline:2px solid var(--gold); outline-offset:2px; }
   margin-top:10px;
 }
 
+.post-comments{ margin-top:44px; padding-top:28px; border-top:1px solid var(--line); }
+.post-comments h2{
+  font-family:"Source Serif 4", Georgia, serif;
+  font-weight:600;
+  font-size:1.3rem;
+  margin:0 0 18px;
+}
+
 .post-footer{ margin-top:40px; padding-top:20px; border-top:1px solid var(--line); }
 .post-footer a{
   font-family:"IBM Plex Mono", monospace;
