@@ -1,0 +1,18 @@
+{% assign post = include.post %}
+<article class="post-card{% if post.pinned %} post-card-pinned{% endif %}">
+  {% if post.cover %}
+  <a class="post-card-media" href="{{ post.url | relative_url }}" tabindex="-1" aria-hidden="true">
+    <img src="{{ post.cover | relative_url }}" alt="" loading="lazy" width="600" height="400">
+  </a>
+  {% endif %}
+  <div class="post-card-body">
+    <p class="post-card-meta">
+      {% if post.pinned %}<span class="post-card-pin">Featured</span> · {% endif %}
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+      {% if post.reading_time %} · {{ post.reading_time }} min read{% endif %}
+    </p>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p class="post-card-excerpt">{{ post.description | default: post.excerpt | strip_html | truncatewords: 32 }}</p>
+    <a class="post-card-link" href="{{ post.url | relative_url }}">Read the piece →</a>
+  </div>
+</article>

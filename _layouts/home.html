@@ -8,22 +8,12 @@ layout: default
 </section>
 
 <section class="post-list" aria-label="All articles">
-  {% for post in site.posts %}
-  <article class="post-card">
-    {% if post.cover %}
-    <a class="post-card-media" href="{{ post.url | relative_url }}" tabindex="-1" aria-hidden="true">
-      <img src="{{ post.cover | relative_url }}" alt="" loading="lazy" width="600" height="400">
-    </a>
-    {% endif %}
-    <div class="post-card-body">
-      <p class="post-card-meta">
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-        {% if post.reading_time %} · {{ post.reading_time }} min read{% endif %}
-      </p>
-      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-      <p class="post-card-excerpt">{{ post.description | default: post.excerpt | strip_html | truncatewords: 32 }}</p>
-      <a class="post-card-link" href="{{ post.url | relative_url }}">Read the piece →</a>
-    </div>
-  </article>
+  {% assign pinned_posts = site.posts | where: "pinned", true %}
+  {% assign other_posts = site.posts | where_exp: "post", "post.pinned != true" %}
+  {% for post in pinned_posts %}
+    {% include post-card.html post=post %}
+  {% endfor %}
+  {% for post in other_posts %}
+    {% include post-card.html post=post %}
   {% endfor %}
 </section>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="A phone screen showing a simple rising line chart, illustrating a mobile-first trading app">
+  <defs>
+    <pattern id="hatch8" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.35"/>
+    </pattern>
+    <filter id="grain8" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+  <line x1="40" y1="352" x2="560" y2="352" stroke="#CAD0BC" stroke-width="2"/>
+  <ellipse cx="300" cy="352" rx="90" ry="13" fill="url(#hatch8)" opacity="0.4"/>
+
+  <path d="M198,54 L402,54 C414,54 422,62 422,74 L422,326 C422,338 414,346 402,346
+           L198,346 C186,346 178,338 178,326 L178,74 C178,62 186,54 198,54 Z"
+        fill="#1E2A20"/>
+  <rect x="190" y="82" width="220" height="240" rx="4" fill="#F1F2E9"/>
+  <rect x="270" y="63" width="60" height="8" rx="4" fill="#1E2A20"/>
+
+  <path d="M410,82 C420,82 420,90 410,90 L410,318 C420,318 420,326 410,326 Z"
+        fill="url(#hatch8)" opacity="0.4"/>
+
+  <g stroke="#1E2A20" stroke-width="1" opacity="0.15">
+    <line x1="204" y1="130" x2="396" y2="130"/>
+    <line x1="204" y1="180" x2="396" y2="180"/>
+    <line x1="204" y1="230" x2="396" y2="230"/>
+    <line x1="204" y1="280" x2="396" y2="280"/>
+  </g>
+
+  <path d="M204,272 C224,270 234,286 250,272 C266,258 276,282 296,264
+           C312,249 324,268 344,238 C360,214 372,224 396,168"
+        fill="none" stroke="#1B6E5C" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M204,272 C224,270 234,286 250,272 C266,258 276,282 296,264
+           C312,249 324,268 344,238 C360,214 372,224 396,168
+           L396,300 L204,300 Z"
+        fill="#1B6E5C" opacity="0.14"/>
+  <circle cx="396" cy="168" r="7" fill="#A9781F" stroke="#1E2A20" stroke-width="2"/>
+
+  <rect x="206" y="290" width="60" height="18" rx="4" fill="#EEF0E6" stroke="#1E2A20" stroke-width="2"/>
+  <rect x="272" y="290" width="46" height="18" rx="4" fill="#F6F7F0" stroke="#1E2A20" stroke-width="2"/>
+
+  <rect width="600" height="400" filter="url(#grain8)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>

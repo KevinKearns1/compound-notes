@@ -1,0 +1,24 @@
+---
+layout: page
+title: Browse by Topic
+permalink: /tags/
+description: Every Compound Notes article, grouped by topic.
+---
+
+<div class="tag-index">
+{% assign tag_names = site.tags | sort %}
+{% for tag in tag_names %}
+<section class="tag-group" id="{{ tag[0] | slugify }}">
+  <h2>{{ tag[0] }}</h2>
+  <ul class="tag-post-list">
+    {% assign posts_sorted = tag[1] | sort: "date" | reverse %}
+    {% for post in posts_sorted %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+</div>
