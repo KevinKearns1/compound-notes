@@ -6,10 +6,19 @@
   {% if site.google_analytics %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', '{{ site.google_analytics }}');
+    (function () {
+      var params = new URLSearchParams(window.location.search);
+      if (params.get('kev') === '1') { localStorage.setItem('cn_exclude', '1'); }
+      if (params.get('kev') === '0') { localStorage.removeItem('cn_exclude'); }
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      if (localStorage.getItem('cn_exclude') !== '1') {
+        gtag('config', '{{ site.google_analytics }}');
+      }
+    })();
   </script>
   {% endif %}
   <link rel="preconnect" href="https://fonts.googleapis.com">
