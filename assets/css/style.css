@@ -86,7 +86,15 @@ a:focus-visible{ outline:2px solid var(--gold); outline-offset:2px; }
 }
 .wordmark:hover{ color:var(--ink); }
 .wordmark-mark{ color:var(--gold); }
-.site-nav{ display:flex; gap:20px; }
+.site-nav{
+  display:flex;
+  gap:20px;
+  max-width:100%;
+  overflow-x:auto;
+  -webkit-overflow-scrolling:touch;
+  scrollbar-width:none;
+}
+.site-nav::-webkit-scrollbar{ display:none; }
 .site-nav a{
   font-family:"IBM Plex Mono", ui-monospace, monospace;
   font-size:0.82rem;
@@ -94,6 +102,8 @@ a:focus-visible{ outline:2px solid var(--gold); outline-offset:2px; }
   letter-spacing:0.06em;
   color:var(--ink-soft);
   text-decoration:none;
+  white-space:nowrap;
+  flex:none;
 }
 .site-nav a:hover{ color:var(--accent-strong); }
 
@@ -338,4 +348,6 @@ a:focus-visible{ outline:2px solid var(--gold); outline-offset:2px; }
 
 @media (max-width:520px){
   .site-header .wrap{ flex-direction:column; align-items:flex-start; }
+  .site-nav{ gap:14px; width:100%; }
+  .site-nav a{ font-size:0.74rem; }
 }
