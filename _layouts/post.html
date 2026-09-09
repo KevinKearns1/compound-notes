@@ -34,8 +34,14 @@ layout: default
          data-page-id="{{ page.url | absolute_url }}"
          data-page-url="{{ page.url | absolute_url }}"
          data-page-title="{{ page.title }}"
-         data-theme="auto"
+         data-theme="light"
     ></div>
+    <script>
+      document.getElementById('cusdis_thread').setAttribute(
+        'data-theme',
+        (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light'
+      );
+    </script>
     <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
   </section>
 
