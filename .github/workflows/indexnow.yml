@@ -1,0 +1,41 @@
+name: Ping IndexNow
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '_posts/**'
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build post URL list and ping IndexNow
+        run: |
+          set -e
+          urls_json=""
+          for f in _posts/*.md; do
+            slug=$(basename "$f" .md | sed -E 's/^[0-9]{4}-[0-9]{2}-[0-9]{2}-//')
+            urls_json="${urls_json}\"https://kevinkearns1.github.io/compound-notes/${slug}/\","
+          done
+          urls_json="[${urls_json%,}]"
+
+          body=$(printf '{"host":"kevinkearns1.github.io","key":"4c75b9dec80526bfd9df25b8fcb95108","keyLocation":"https://kevinkearns1.github.io/compound-notes/4c75b9dec80526bfd9df25b8fcb95108.txt","urlList":%s}' "$urls_json")
+
+          echo "Pinging IndexNow with:"
+          echo "$body"
+
+          http_code=$(curl -s -o /tmp/indexnow_response.txt -w "%{http_code}" \
+            -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "$body")
+
+          echo "IndexNow responded: $http_code"
+          cat /tmp/indexnow_response.txt || true
+
+          # IndexNow returns 200 or 202 on success
+          if [ "$http_code" != "200" ] && [ "$http_code" != "202" ]; then
+            echo "::warning::IndexNow ping returned unexpected status $http_code"
+          fi
