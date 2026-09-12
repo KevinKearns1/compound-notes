@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="A gauge dial with five unequal wedge segments, illustrating the unequal factors that make up a credit score, with a needle pointing into the largest segment">
+  <defs>
+    <pattern id="hatch11" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain11" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+  <line x1="60" y1="330" x2="540" y2="330" stroke="#CAD0BC" stroke-width="2"/>
+  <ellipse cx="300" cy="330" rx="110" ry="13" fill="url(#hatch11)" opacity="0.35"/>
+
+  <!-- 5 wedge segments: 35%, 30%, 15%, 10%, 10% across a 180 degree dial -->
+  <path d="M300,280 L150,280 A150,150 0 0,1 232,146 Z" fill="#12503F" stroke="#1E2A20" stroke-width="2.5"/>
+  <path d="M300,280 L232,146 A150,150 0 0,1 368,146 Z" fill="#1B6E5C" stroke="#1E2A20" stroke-width="2.5"/>
+  <path d="M300,280 L368,146 A150,150 0 0,1 421,192 Z" fill="#54604F" stroke="#1E2A20" stroke-width="2.5"/>
+  <path d="M300,280 L421,192 A150,150 0 0,1 443,234 Z" fill="#EEF0E6" stroke="#1E2A20" stroke-width="2.5"/>
+  <path d="M300,280 L443,234 A150,150 0 0,1 450,280 Z" fill="#A9781F" stroke="#1E2A20" stroke-width="2.5"/>
+
+  <path d="M300,280 L150,280 A150,150 0 0,1 450,280 Z" fill="url(#hatch11)" opacity="0.12"/>
+
+  <path d="M300,280 L198,216 L212,232 Z" fill="#1E2A20"/>
+  <circle cx="300" cy="280" r="16" fill="#F1F2E9" stroke="#1E2A20" stroke-width="3"/>
+
+  <rect x="250" y="300" width="100" height="18" rx="5" fill="#F1F2E9" stroke="#1E2A20" stroke-width="2.5"/>
+
+  <rect width="600" height="400" filter="url(#grain11)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
