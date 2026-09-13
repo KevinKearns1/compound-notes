@@ -11,10 +11,10 @@ tags: [retirement, fundamentals, workplace benefits]
 reading_time: 7
 cover: /assets/images/covers/hsa.svg
 image: /assets/images/covers/hsa.png
-cover_alt: "A small medical cross icon beside a sealed jar of coins with a sprout growing out of it, illustrating money set aside tax-free for both healthcare and long-term growth"
+cover_alt: "A stack of coins with a small medical cross pin planted in the top and a sprout growing beside it, illustrating money set aside tax-free for both healthcare and long-term growth"
 ---
 
-I've written about Roth IRAs and 401(k) matches on here, and an HSA usually doesn't come up in the same conversation — it gets filed under "health insurance paperwork" instead of "investment account." That's a mistake. If you have access to one, it's arguably the single best tax-advantaged account that exists, and most people who have one aren't using it that way.
+I've written about [Roth IRAs]({{ '/what-is-a-roth-ira/' | relative_url }}) and [401(k) matches]({{ '/401k-employer-match/' | relative_url }}) on here, and an HSA usually doesn't come up in the same conversation — it gets filed under "health insurance paperwork" instead of "investment account." That's a mistake. If you have access to one, it's arguably the single best tax-advantaged account that exists, and most people who have one aren't using it that way.
 
 ## The one-sentence version
 

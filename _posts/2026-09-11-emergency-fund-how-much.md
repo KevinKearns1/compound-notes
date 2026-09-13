@@ -10,7 +10,7 @@ tags: [fundamentals, getting started]
 reading_time: 6
 cover: /assets/images/covers/emergency-fund.svg
 image: /assets/images/covers/emergency-fund.png
-cover_alt: "A locked box on a shelf with a wavy protective line arcing over it, illustrating money set aside as a buffer against the unexpected"
+cover_alt: "A locked box on a shelf with a protective arc over it deflecting a jagged bolt, illustrating money set aside as a buffer against the unexpected"
 ---
 
 I mentioned emergency funds in passing when I wrote about [saving vs. investing]({{ '/saving-vs-investing/' | relative_url }}), but I never actually answered the question everyone asks next: how much is enough? The honest answer is "it depends," but that's a useless sentence on its own — here's what it actually depends on.
