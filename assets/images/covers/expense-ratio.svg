@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Two identical jars, one growing a tall healthy sprout and the other growing a smaller sprout while leaking coins through a crack in its base, illustrating how a fund fee quietly drains returns over time">
+  <defs>
+    <pattern id="hatch15" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain15" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+  <line x1="40" y1="340" x2="560" y2="340" stroke="#CAD0BC" stroke-width="2"/>
+  <ellipse cx="170" cy="340" rx="58" ry="12" fill="url(#hatch15)" opacity="0.3"/>
+  <ellipse cx="430" cy="340" rx="58" ry="12" fill="url(#hatch15)" opacity="0.3"/>
+
+  <!-- left jar: healthy -->
+  <path d="M130,340 L130,262 Q130,232 150,222 L155,192 L185,192 L190,222 Q210,232 210,262 L210,340 Z"
+        fill="#F1F2E9" stroke="#1E2A20" stroke-width="3"/>
+  <rect x="152" y="180" width="36" height="14" rx="4" fill="#54604F" stroke="#1E2A20" stroke-width="2.3"/>
+  <path d="M170,180 C166,140 172,104 158,74 C180,96 186,132 178,180 Z" fill="#1B6E5C"/>
+  <path d="M178,150 C186,120 208,108 224,110 C206,120 196,140 196,158 Z" fill="#12503F"/>
+
+  <!-- right jar: leaking -->
+  <path d="M390,340 L390,262 Q390,232 410,222 L415,192 L445,192 L450,222 Q470,232 470,262 L470,340 Z"
+        fill="#F1F2E9" stroke="#1E2A20" stroke-width="3"/>
+  <rect x="412" y="180" width="36" height="14" rx="4" fill="#54604F" stroke="#1E2A20" stroke-width="2.3"/>
+  <path d="M430,180 C428,160 431,142 425,124 C438,136 441,158 436,180 Z" fill="#1B6E5C"/>
+
+  <path d="M403,270 L413,286 L406,298 L416,314" fill="none" stroke="#1E2A20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M403,270 L413,286 L406,298 L416,314 L430,340 L394,340 Z" fill="url(#hatch15)" opacity="0.4"/>
+
+  <path d="M416,314 Q400,326 384,332" fill="none" stroke="#1E2A20" stroke-width="1.6" stroke-dasharray="1 5" stroke-linecap="round" opacity="0.5"/>
+  <ellipse cx="374" cy="336" rx="14" ry="5" fill="#A9781F" stroke="#1E2A20" stroke-width="2"/>
+  <path d="M416,314 Q394,318 366,320" fill="none" stroke="#1E2A20" stroke-width="1.6" stroke-dasharray="1 5" stroke-linecap="round" opacity="0.5"/>
+  <ellipse cx="352" cy="324" rx="12" ry="4.5" fill="#A9781F" stroke="#1E2A20" stroke-width="2"/>
+
+  <rect width="600" height="400" filter="url(#grain15)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
