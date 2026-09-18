@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="A building divided into a grid of equal units, with one unit highlighted and pulled out as a certificate, illustrating a share of stock as one small piece of ownership in a whole company">
+  <defs>
+    <pattern id="hatch16" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain16" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+  <line x1="60" y1="340" x2="540" y2="340" stroke="#CAD0BC" stroke-width="2"/>
+  <ellipse cx="230" cy="340" rx="100" ry="12" fill="url(#hatch16)" opacity="0.3"/>
+
+  <rect x="140" y="110" width="180" height="230" fill="#F1F2E9" stroke="#1E2A20" stroke-width="3"/>
+  <g stroke="#1E2A20" stroke-width="1.6" opacity="0.55">
+    <line x1="185" y1="110" x2="185" y2="340"/>
+    <line x1="230" y1="110" x2="230" y2="340"/>
+    <line x1="275" y1="110" x2="275" y2="340"/>
+    <line x1="140" y1="156" x2="320" y2="156"/>
+    <line x1="140" y1="202" x2="320" y2="202"/>
+    <line x1="140" y1="248" x2="320" y2="248"/>
+    <line x1="140" y1="294" x2="320" y2="294"/>
+  </g>
+  <rect x="230" y="156" width="45" height="46" fill="#1B6E5C" stroke="#1E2A20" stroke-width="2"/>
+
+  <path d="M275,179 Q330,179 372,177" fill="none" stroke="#1E2A20" stroke-width="2" stroke-dasharray="1 6" stroke-linecap="round" opacity="0.55"/>
+
+  <rect x="374" y="146" width="88" height="66" rx="6" fill="#1B6E5C" stroke="#1E2A20" stroke-width="3"/>
+  <line x1="388" y1="168" x2="434" y2="168" stroke="#EEF0E6" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  <line x1="388" y1="182" x2="420" y2="182" stroke="#EEF0E6" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <line x1="388" y1="196" x2="428" y2="196" stroke="#EEF0E6" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <circle cx="452" cy="130" r="14" fill="#A9781F" stroke="#1E2A20" stroke-width="2.3"/>
+  <path d="M446,130 L451,136 L460,124" fill="none" stroke="#F6F7F0" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect width="600" height="400" filter="url(#grain16)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
