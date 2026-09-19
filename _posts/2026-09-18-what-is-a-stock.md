@@ -27,7 +27,7 @@ This is the part that surprises people, because it's more real than it sounds:
 
 - **A claim on the company's profits**, if and when the company distributes them as dividends. Not every company pays dividends — many reinvest profits into growing the business instead — but when a company does pay one, it's paid per share, to every shareholder.
 - **A vote.** Shareholders typically get to vote on major company decisions — electing the board of directors, approving mergers, and other major moves — proportional to how many shares they own. One share in a company with a billion shares outstanding is a tiny vote, but it's a real one, not a metaphor.
-- **A claim on assets if the company is liquidated**, after everyone else in line gets paid first — creditors and bondholders are ahead of shareholders here, which is part of why stock is riskier than a bond issued by the same company.
+- **A claim on assets if the company is liquidated**, after everyone else in line gets paid first — creditors and [bondholders]({{ '/what-is-a-bond/' | relative_url }}) are ahead of shareholders here, which is part of why stock is riskier than a bond issued by the same company.
 - **The right to sell it to someone else**, whenever you want, at whatever price a buyer is willing to pay — which is what's actually happening every time a stock's price moves on an exchange.
 
 What you *don't* get: any say in day-to-day operations, a guaranteed return, or your money back if the company simply performs badly. Ownership, not a loan, not a promise.
