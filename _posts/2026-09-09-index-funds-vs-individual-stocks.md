@@ -17,7 +17,7 @@ I've casually said "a broad index fund" in almost everything I've written on her
 
 ## What each one actually is
 
-**An individual stock** is ownership in one specific company. Buy Apple stock, and your investment's fate is tied to Apple specifically — its earnings, its leadership decisions, its competitors, its scandals, all of it.
+**An [individual stock]({{ '/what-is-a-stock/' | relative_url }})** is ownership in one specific company. Buy Apple stock, and your investment's fate is tied to Apple specifically — its earnings, its leadership decisions, its competitors, its scandals, all of it.
 
 **An index fund** is a single investment that holds small pieces of hundreds or thousands of companies at once, tracking a market index (like the S&P 500, roughly the 500 largest U.S. companies). Buy one share of a total-market index fund, and you own a tiny sliver of every company in it simultaneously — not a bet on any one of them.
 

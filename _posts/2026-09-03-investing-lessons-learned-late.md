@@ -16,7 +16,7 @@ None of this gets taught in school, and most of it doesn't show up in the financ
 
 ## 1. Fees are invisible and they are not small
 
-A 1% annual fee sounds like nothing. Over 30 years, on money that would otherwise compound, it can quietly eat a quarter or more of what you would have ended up with — not because 1% a year is dramatic, but because it compounds against you the same way returns compound for you. Index funds with expense ratios under 0.1% exist and are widely available; a fund charging 1%+ needs to meaningfully outperform just to break even with one that doesn't. Check the expense ratio before you check the fund's past returns.
+A 1% annual fee sounds like nothing. Over 30 years, on money that would otherwise compound, it can quietly eat a quarter or more of what you would have ended up with — not because 1% a year is dramatic, but because it compounds against you the same way returns compound for you. Index funds with expense ratios under 0.1% exist and are widely available; a fund charging 1%+ needs to meaningfully outperform just to break even with one that doesn't. Check the [expense ratio]({{ '/what-is-an-expense-ratio/' | relative_url }}) before you check the fund's past returns.
 
 <!--more-->
 
