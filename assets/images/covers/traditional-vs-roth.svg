@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Two identical jars of coins, one taxed at the entrance with a coin removed going in and one taxed at the exit with a coin removed coming out, illustrating the two ways an IRA can be taxed">
+  <defs>
+    <pattern id="hatch19" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain19" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+  <line x1="40" y1="340" x2="560" y2="340" stroke="#CAD0BC" stroke-width="2"/>
+  <ellipse cx="152" cy="340" rx="82" ry="11" fill="url(#hatch19)" opacity="0.3"/>
+  <ellipse cx="448" cy="340" rx="82" ry="11" fill="url(#hatch19)" opacity="0.3"/>
+
+  <!-- Left jar: Traditional — taxed going in -->
+  <g>
+    <path d="M96,150 L96,300 Q96,320 116,320 L188,320 Q208,320 208,300 L208,150"
+          fill="#F1F2E9" stroke="#1E2A20" stroke-width="3"/>
+    <path d="M96,150 L96,140 Q96,132 106,132 L198,132 Q208,132 208,140 L208,150 Z"
+          fill="#EEF0E6" stroke="#1E2A20" stroke-width="3"/>
+    <g fill="#A9781F" stroke="#1E2A20" stroke-width="1.6" opacity="0.92">
+      <ellipse cx="130" cy="288" rx="26" ry="9"/>
+      <ellipse cx="170" cy="278" rx="26" ry="9"/>
+      <ellipse cx="150" cy="256" rx="26" ry="9"/>
+      <ellipse cx="130" cy="234" rx="26" ry="9"/>
+      <ellipse cx="172" cy="220" rx="24" ry="9"/>
+    </g>
+    <!-- coin being pulled off before it lands: tax at entry -->
+    <circle cx="152" cy="92" r="15" fill="#54604F" stroke="#1E2A20" stroke-width="2"/>
+    <path d="M144,92 L160,92 M152,84 L152,100" stroke="#F6F7F0" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+    <path d="M152,108 L152,132" fill="none" stroke="#1E2A20" stroke-width="2" stroke-dasharray="1 6" stroke-linecap="round" opacity="0.5"/>
+  </g>
+  <text x="152" y="368" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#1E2A20" opacity="0.75">taxed in</text>
+
+  <!-- Right jar: Roth — taxed coming out -->
+  <g>
+    <path d="M392,150 L392,300 Q392,320 412,320 L484,320 Q504,320 504,300 L504,150"
+          fill="#F1F2E9" stroke="#1E2A20" stroke-width="3"/>
+    <path d="M392,150 L392,140 Q392,132 402,132 L494,132 Q504,132 504,140 L504,150 Z"
+          fill="#EEF0E6" stroke="#1E2A20" stroke-width="3"/>
+    <g fill="#1B6E5C" stroke="#1E2A20" stroke-width="1.6" opacity="0.92">
+      <ellipse cx="426" cy="288" rx="26" ry="9"/>
+      <ellipse cx="466" cy="278" rx="26" ry="9"/>
+      <ellipse cx="446" cy="256" rx="26" ry="9"/>
+      <ellipse cx="426" cy="234" rx="26" ry="9"/>
+      <ellipse cx="468" cy="220" rx="24" ry="9"/>
+    </g>
+    <!-- coin exiting at the top, one skimmed off on exit -->
+    <path d="M448,132 L448,102" fill="none" stroke="#1E2A20" stroke-width="2" stroke-dasharray="1 6" stroke-linecap="round" opacity="0.5"/>
+    <circle cx="448" cy="86" r="15" fill="#54604F" stroke="#1E2A20" stroke-width="2"/>
+    <path d="M440,86 L456,86 M448,78 L448,94" stroke="#F6F7F0" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  </g>
+  <text x="448" y="368" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#1E2A20" opacity="0.75">taxed out</text>
+
+  <rect width="600" height="400" filter="url(#grain19)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
