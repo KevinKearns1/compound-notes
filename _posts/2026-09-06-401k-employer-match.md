@@ -27,7 +27,7 @@ If you make $50,000 a year and your employer matches 100% of the first 3%, contr
 
 The instinct to skip 401(k) contributions when money is tight is understandable — it looks like giving up cash you need now. But it's worth running the actual math before deciding that, for two reasons:
 
-1. **Contributions typically come out pre-tax**, which means contributing $100 doesn't reduce your take-home pay by the full $100 — it reduces it by $100 minus whatever income tax you would have paid on that $100. The real cost to your paycheck is smaller than the number on the contribution.
+1. **Contributions typically come out [pre-tax]({{ '/traditional-vs-roth-ira/' | relative_url }})**, which means contributing $100 doesn't reduce your take-home pay by the full $100 — it reduces it by $100 minus whatever income tax you would have paid on that $100. The real cost to your paycheck is smaller than the number on the contribution.
 2. **The match is additional money you don't otherwise have access to.** Even setting aside the tax point, turning down a 50%-or-100%-instant-return on part of your paycheck is a worse deal than almost any other financial decision available to you — there's no investment, savings account, or debt payoff (short of very high-interest debt) that reliably beats an immediate 50-100% return.
 
 None of this means max out your 401(k) before paying rent. It means **the amount required to get the full match** (often 3-6% of salary) deserves to be the very last thing cut from a budget, not the first — because unlike most budget line items, this one has a matching employer contribution attached to it that disappears the moment you contribute less.

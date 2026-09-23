@@ -23,7 +23,7 @@ Dollar-cost averaging (DCA) means investing a fixed amount of money at regular i
 
 ## Why this works better than it sounds
 
-The mechanism is almost mechanical: when prices are high, your fixed $200 buys fewer shares. When prices are low, that same $200 buys more shares. Over time, this naturally averages your purchase price across the market's ups and downs — you're never all-in at the peak, and you're never sitting in cash trying to guess the bottom.
+The mechanism is almost mechanical: when prices are high, your fixed $200 buys fewer [shares]({{ '/what-is-a-stock/' | relative_url }}). When prices are low, that same $200 buys more shares. Over time, this naturally averages your purchase price across the market's ups and downs — you're never all-in at the peak, and you're never sitting in cash trying to guess the bottom.
 
 Say you invest $200 a month for four months, and the price per share does this: $20, $25, $15, $20.
 

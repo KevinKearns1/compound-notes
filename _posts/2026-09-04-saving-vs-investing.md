@@ -37,7 +37,7 @@ That's the trap: a market drop feels like a loss because you can watch it happen
 
 There's no universal formula, but a common, sane structure looks like this:
 
-1. **Emergency fund first** — roughly 3-6 months of essential expenses, in a savings account (ideally a high-yield one; the interest rate difference between banks is often significant, even though both are "just savings accounts").
+1. **[Emergency fund]({{ '/emergency-fund-how-much/' | relative_url }}) first** — roughly 3-6 months of essential expenses, in a savings account (ideally a high-yield one; the interest rate difference between banks is often significant, even though both are "just savings accounts").
 2. **High-interest debt next** — paying off a credit card charging 20%+ interest is a guaranteed return no investment reliably beats. This comes before investing, not after.
 3. **Then investing** — money beyond the emergency fund and debt payoff, that you won't need for 3+ years, is a reasonable candidate for a brokerage account rather than more savings.
 
