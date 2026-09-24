@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="A calendar page marking a one-year line, with a coin stack taking a large bite before the line and a smaller bite after it, illustrating how the holding period changes the capital gains tax rate">
+  <defs>
+    <pattern id="hatch20" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain20" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+  <line x1="40" y1="336" x2="560" y2="336" stroke="#CAD0BC" stroke-width="2"/>
+
+  <!-- timeline with 1-year marker -->
+  <line x1="70" y1="300" x2="530" y2="300" stroke="#1E2A20" stroke-width="2.4" stroke-linecap="round" opacity="0.5"/>
+  <line x1="300" y1="280" x2="300" y2="320" stroke="#1E2A20" stroke-width="3" stroke-linecap="round"/>
+  <text x="300" y="256" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#1E2A20" opacity="0.8">1 YEAR</text>
+  <path d="M300,320 L292,332 L308,332 Z" fill="#1E2A20" opacity="0.5"/>
+
+  <!-- left side: short-term, bigger bite taken -->
+  <g>
+    <ellipse cx="160" cy="286" rx="30" ry="9" fill="#A9781F" stroke="#1E2A20" stroke-width="2"/>
+    <ellipse cx="160" cy="266" rx="30" ry="9" fill="#A9781F" stroke="#1E2A20" stroke-width="2"/>
+    <ellipse cx="160" cy="246" rx="30" ry="9" fill="#A9781F" stroke="#1E2A20" stroke-width="2"/>
+    <path d="M160,207 Q194,215 182,240 Q168,222 138,224 Q146,210 160,207 Z" fill="#E3E7D9" stroke="#1E2A20" stroke-width="2.4"/>
+  </g>
+  <text x="160" y="200" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#1E2A20" opacity="0.7">short-term</text>
+
+  <!-- right side: long-term, smaller bite taken -->
+  <g>
+    <ellipse cx="430" cy="286" rx="30" ry="9" fill="#1B6E5C" stroke="#1E2A20" stroke-width="2"/>
+    <ellipse cx="430" cy="266" rx="30" ry="9" fill="#1B6E5C" stroke="#1E2A20" stroke-width="2"/>
+    <ellipse cx="430" cy="246" rx="30" ry="9" fill="#1B6E5C" stroke="#1E2A20" stroke-width="2"/>
+    <path d="M430,229 Q446,232 441,246 Q432,236 418,238 Q422,231 430,229 Z" fill="#E3E7D9" stroke="#1E2A20" stroke-width="2.2"/>
+  </g>
+  <text x="430" y="200" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#1E2A20" opacity="0.7">long-term</text>
+
+  <ellipse cx="160" cy="332" rx="40" ry="9" fill="url(#hatch20)" opacity="0.3"/>
+  <ellipse cx="430" cy="332" rx="40" ry="9" fill="url(#hatch20)" opacity="0.3"/>
+
+  <rect width="600" height="400" filter="url(#grain20)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
