@@ -29,7 +29,7 @@ The test that cuts through most confusion: **if you'd be in real trouble needing
 
 The more common error isn't investing money you needed for rent — people generally learn that lesson fast and hard. It's the opposite: leaving too much sitting in savings for too long, because it feels safe and responsible.
 
-Here's the problem with that feeling. A typical savings account pays an interest rate that, in most years, sits below the inflation rate — meaning the number in the account goes up, but what that number can actually buy quietly goes down. $10,000 sitting in a savings account earning less than inflation for ten years doesn't stay "safe." It loses real purchasing power the entire time, just slowly enough that it doesn't feel like a loss the way a stock market drop does.
+Here's the problem with that feeling. A typical savings account pays an interest rate that, in most years, sits below the [inflation rate]({{ '/what-is-inflation/' | relative_url }}) — meaning the number in the account goes up, but what that number can actually buy quietly goes down. $10,000 sitting in a savings account earning less than inflation for ten years doesn't stay "safe." It loses real purchasing power the entire time, just slowly enough that it doesn't feel like a loss the way a stock market drop does.
 
 That's the trap: a market drop feels like a loss because you can watch it happen. Inflation eroding a savings balance doesn't feel like anything at all, which is exactly why it's so easy to leave $20,000 sitting in a 0.5%-interest account for a decade "to be safe," when a meaningful chunk of that money had no timeline requiring it to be that liquid.
 
