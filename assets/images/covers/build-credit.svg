@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="A small seedling growing inside a single footprint on an otherwise empty path, illustrating the first step of building credit history from nothing">
+  <defs>
+    <pattern id="hatch23" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain23" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+
+  <!-- empty path receding, dotted footprints ahead unfilled -->
+  <path d="M170,340 C240,300 360,300 430,340" fill="none" stroke="#1E2A20" stroke-width="2" stroke-dasharray="1 8" stroke-linecap="round" opacity="0.35"/>
+
+  <g fill="none" stroke="#1E2A20" stroke-width="1.6" stroke-dasharray="2 6" opacity="0.3">
+    <ellipse cx="330" cy="298" rx="10" ry="15" transform="rotate(-8 330 298)"/>
+    <ellipse cx="380" cy="288" rx="10" ry="15" transform="rotate(-6 380 288)"/>
+    <ellipse cx="430" cy="280" rx="10" ry="15" transform="rotate(-4 430 280)"/>
+  </g>
+
+  <!-- the one filled footprint, with a seedling growing in it -->
+  <g transform="translate(240,318)">
+    <ellipse cx="0" cy="0" rx="30" ry="42" fill="#DCE2D0" stroke="#1E2A20" stroke-width="2.6" transform="rotate(-10 0 0)"/>
+    <ellipse cx="-2" cy="4" rx="20" ry="30" fill="#CAD0BC" opacity="0.6" transform="rotate(-10 0 0)"/>
+  </g>
+
+  <!-- seedling -->
+  <g transform="translate(238,300)">
+    <path d="M0,50 C0,20 0,-4 0,-30" fill="none" stroke="#12503F" stroke-width="4" stroke-linecap="round"/>
+    <path d="M0,-14 C-22,-26 -34,-10 -34,4 C-14,2 -4,-4 0,-14 Z" fill="#1B6E5C" stroke="#1E2A20" stroke-width="2"/>
+    <path d="M0,-22 C20,-34 32,-18 32,-4 C14,-4 4,-12 0,-22 Z" fill="#1B6E5C" stroke="#1E2A20" stroke-width="2"/>
+    <path d="M0,-30 C-8,-42 -4,-52 4,-58 C10,-48 8,-38 0,-30 Z" fill="#1B6E5C" stroke="#1E2A20" stroke-width="2"/>
+  </g>
+
+  <line x1="60" y1="350" x2="540" y2="350" stroke="#CAD0BC" stroke-width="2"/>
+  <ellipse cx="240" cy="358" rx="40" ry="8" fill="url(#hatch23)" opacity="0.3"/>
+
+  <rect width="600" height="400" filter="url(#grain23)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
