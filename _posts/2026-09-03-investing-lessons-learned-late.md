@@ -34,7 +34,7 @@ People talk about "risk tolerance" like it's a personality trait you self-assess
 
 ## 5. "Diversified" doesn't mean "owns a lot of stocks you picked"
 
-Owning 15 individual tech stocks isn't diversification — it's a concentrated bet on one sector wearing a diversified costume. Real diversification means exposure to different sectors, company sizes, and often different countries, which is most of why broad index funds are the default recommendation: one fund can hold thousands of companies across the whole economy, which no individual picking their own 15 stocks is realistically going to replicate.
+Owning 15 individual tech stocks isn't diversification — it's a concentrated bet on one sector wearing a diversified costume. [Real diversification]({{ '/what-is-diversification/' | relative_url }}) means exposure to different sectors, company sizes, and often different countries, which is most of why broad index funds are the default recommendation: one fund can hold thousands of companies across the whole economy, which no individual picking their own 15 stocks is realistically going to replicate.
 
 ## 6. The emotional cost of checking your portfolio daily is real, and it's not free
 
