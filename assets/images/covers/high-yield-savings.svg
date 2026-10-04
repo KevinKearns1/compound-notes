@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Two identical jars of coins growing at very different rates over the same timeline, illustrating the gap between a big bank's savings rate and a high-yield savings account">
+  <defs>
+    <pattern id="hatch27" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain27" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+  <line x1="40" y1="340" x2="560" y2="340" stroke="#CAD0BC" stroke-width="2"/>
+
+  <!-- left jar: barely growing -->
+  <g>
+    <path d="M110,290 L110,330 Q110,340 120,340 L170,340 Q180,340 180,330 L180,290"
+          fill="#F1F2E9" stroke="#1E2A20" stroke-width="2.6"/>
+    <path d="M105,282 Q145,270 185,282 L180,292 L110,292 Z" fill="#EEF0E6" stroke="#1E2A20" stroke-width="2.6"/>
+    <g fill="#A9781F" opacity="0.9">
+      <ellipse cx="130" cy="322" rx="20" ry="7"/>
+      <ellipse cx="158" cy="316" rx="20" ry="7"/>
+    </g>
+  </g>
+  <text x="145" y="368" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#1E2A20" opacity="0.7">0.01%</text>
+
+  <!-- right jar: much taller stack, growing a lot -->
+  <g>
+    <path d="M410,150 L410,330 Q410,340 420,340 L480,340 Q490,340 490,330 L490,150"
+          fill="#F1F2E9" stroke="#1E2A20" stroke-width="2.8"/>
+    <path d="M404,140 Q450,124 496,140 L490,152 L410,152 Z" fill="#EEF0E6" stroke="#1E2A20" stroke-width="2.8"/>
+    <g fill="#1B6E5C" opacity="0.92">
+      <ellipse cx="434" cy="322" rx="22" ry="8"/>
+      <ellipse cx="466" cy="314" rx="22" ry="8"/>
+      <ellipse cx="438" cy="296" rx="22" ry="8"/>
+      <ellipse cx="462" cy="278" rx="22" ry="8"/>
+      <ellipse cx="434" cy="258" rx="22" ry="8"/>
+      <ellipse cx="464" cy="240" rx="22" ry="8"/>
+      <ellipse cx="438" cy="220" rx="22" ry="8"/>
+      <ellipse cx="460" cy="200" rx="22" ry="8"/>
+      <ellipse cx="446" cy="180" rx="22" ry="8"/>
+    </g>
+  </g>
+  <text x="450" y="368" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#1E2A20" opacity="0.7">4.5%</text>
+
+  <!-- dashed growth-line arrows comparing trajectories -->
+  <path d="M145,282 L145,262" stroke="#1E2A20" stroke-width="2" stroke-dasharray="1 5" stroke-linecap="round" opacity="0.3"/>
+  <path d="M450,140 L450,110" stroke="#1E2A20" stroke-width="2" stroke-dasharray="1 5" stroke-linecap="round" opacity="0.35"/>
+  <path d="M446,118 L450,106 L454,118" fill="none" stroke="#1E2A20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.35"/>
+
+  <ellipse cx="145" cy="346" rx="48" ry="8" fill="url(#hatch27)" opacity="0.3"/>
+  <ellipse cx="450" cy="346" rx="56" ry="8" fill="url(#hatch27)" opacity="0.3"/>
+
+  <rect width="600" height="400" filter="url(#grain27)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
