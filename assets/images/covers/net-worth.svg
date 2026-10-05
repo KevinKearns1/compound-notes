@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="A simple balance showing a pile of assets on one side and a pile of debts on the other, with the difference between them marked as the result, illustrating net worth as assets minus liabilities">
+  <defs>
+    <pattern id="hatch28" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain28" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+  <line x1="40" y1="340" x2="560" y2="340" stroke="#CAD0BC" stroke-width="2"/>
+
+  <!-- assets pile, left -->
+  <g>
+    <ellipse cx="150" cy="300" rx="28" ry="9" fill="#1B6E5C" stroke="#1E2A20" stroke-width="2"/>
+    <ellipse cx="150" cy="282" rx="28" ry="9" fill="#1B6E5C" stroke="#1E2A20" stroke-width="2"/>
+    <ellipse cx="150" cy="264" rx="28" ry="9" fill="#1B6E5C" stroke="#1E2A20" stroke-width="2"/>
+    <ellipse cx="150" cy="246" rx="28" ry="9" fill="#1B6E5C" stroke="#1E2A20" stroke-width="2"/>
+    <ellipse cx="150" cy="228" rx="28" ry="9" fill="#1B6E5C" stroke="#1E2A20" stroke-width="2"/>
+  </g>
+  <text x="150" y="328" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#1E2A20" opacity="0.75">assets</text>
+  <ellipse cx="150" cy="336" rx="46" ry="8" fill="url(#hatch28)" opacity="0.3"/>
+
+  <!-- minus sign -->
+  <line x1="268" y1="262" x2="306" y2="262" stroke="#1E2A20" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- debts pile, right -->
+  <g>
+    <ellipse cx="390" cy="300" rx="22" ry="7.5" fill="#A9781F" stroke="#1E2A20" stroke-width="2"/>
+    <ellipse cx="390" cy="286" rx="22" ry="7.5" fill="#A9781F" stroke="#1E2A20" stroke-width="2"/>
+    <ellipse cx="390" cy="272" rx="22" ry="7.5" fill="#A9781F" stroke="#1E2A20" stroke-width="2"/>
+  </g>
+  <text x="390" y="325" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#1E2A20" opacity="0.75">debts</text>
+  <ellipse cx="390" cy="312" rx="36" ry="8" fill="url(#hatch28)" opacity="0.3"/>
+
+  <!-- equals -->
+  <line x1="458" y1="254" x2="496" y2="254" stroke="#1E2A20" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+  <line x1="458" y1="270" x2="496" y2="270" stroke="#1E2A20" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- net worth result, a single marked coin -->
+  <g transform="translate(530,220)">
+    <circle r="30" fill="#54604F" stroke="#1E2A20" stroke-width="3"/>
+    <text y="7" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#F6F7F0">=</text>
+  </g>
+  <text x="530" y="270" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#1E2A20" opacity="0.7">net worth</text>
+
+  <rect width="600" height="400" filter="url(#grain28)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
