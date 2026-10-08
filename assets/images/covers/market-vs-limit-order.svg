@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Two arrows aiming at a moving price target, one firing immediately at whatever price it currently shows and one waiting, held back by a marked price line, until the target reaches it">
+  <defs>
+    <pattern id="hatch30" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain30" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+  <line x1="40" y1="340" x2="560" y2="340" stroke="#CAD0BC" stroke-width="2"/>
+
+  <!-- price line zigzag across the whole scene -->
+  <path d="M60,220 C140,160 200,260 280,190 C360,130 420,250 500,170 C520,155 540,165 548,150"
+        fill="none" stroke="#1E2A20" stroke-width="2.2" opacity="0.5"/>
+
+  <!-- market order: arrow firing immediately, top area -->
+  <g transform="translate(150,170)">
+    <circle r="22" fill="#1B6E5C" stroke="#1E2A20" stroke-width="2.4"/>
+    <circle r="12" fill="#F6F7F0" opacity="0.9"/>
+    <circle r="4" fill="#1B6E5C"/>
+    <path d="M-70,10 L-26,2" stroke="#1E2A20" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-36,-5 L-24,1 L-36,9" fill="none" stroke="#1E2A20" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="150" y="214" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#1E2A20" opacity="0.75">market order — fires now</text>
+
+  <!-- limit order: target lower, with a held-back arrow behind a price line -->
+  <g transform="translate(430,230)">
+    <circle r="22" fill="#A9781F" stroke="#1E2A20" stroke-width="2.4"/>
+    <circle r="12" fill="#F6F7F0" opacity="0.9"/>
+    <circle r="4" fill="#A9781F"/>
+  </g>
+  <line x1="360" y1="230" x2="360" y2="280" stroke="#1E2A20" stroke-width="2.4" stroke-dasharray="3 4" opacity="0.7"/>
+  <text x="360" y="296" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#1E2A20" opacity="0.7">limit price</text>
+  <g transform="translate(300,260)">
+    <path d="M0,0 L40,-6" stroke="#1E2A20" stroke-width="3" stroke-linecap="round" opacity="0.55"/>
+    <path d="M30,-13 L42,-6 L30,1" fill="none" stroke="#1E2A20" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/>
+  </g>
+  <text x="430" y="274" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#1E2A20" opacity="0.75">limit order — waits</text>
+
+  <ellipse cx="150" cy="346" rx="90" ry="8" fill="url(#hatch30)" opacity="0.25"/>
+  <ellipse cx="430" cy="346" rx="90" ry="8" fill="url(#hatch30)" opacity="0.25"/>
+
+  <rect width="600" height="400" filter="url(#grain30)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
