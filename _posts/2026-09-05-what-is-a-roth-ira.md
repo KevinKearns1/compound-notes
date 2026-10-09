@@ -25,7 +25,7 @@ That's the entire pitch. Everything else is detail.
 
 ## How it's different from a regular brokerage account
 
-A regular ("taxable") brokerage account and a Roth IRA can hold the exact same investments — same index funds, same stocks. The difference isn't what you can buy, it's the tax treatment:
+A regular ("taxable") [brokerage account]({{ '/what-is-a-brokerage-account/' | relative_url }}) and a Roth IRA can hold the exact same investments — same index funds, same stocks. The difference isn't what you can buy, it's the tax treatment:
 
 - **Regular brokerage account:** you invest money you've already paid income tax on. Then, every year, you owe tax on dividends you receive, and tax on any gains when you sell ([capital gains tax]({{ '/capital-gains-tax-explained/' | relative_url }})).
 - **Roth IRA:** you also invest money you've already paid income tax on — that part's the same. But from there on, the account grows completely tax-free, and when you withdraw it in retirement (after age 59½, assuming the account's been open 5+ years), you owe **nothing** — not on the original contributions, not on decades of growth on top of them.

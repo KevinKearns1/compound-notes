@@ -52,7 +52,7 @@ One rule worth knowing here: the **wash sale rule** disallows the loss if you bu
 
 ## Why this doesn't apply inside a Roth or Traditional IRA
 
-Everything above is specific to a regular ("taxable") brokerage account. Inside a [Roth or Traditional IRA]({{ '/traditional-vs-roth-ira/' | relative_url }}), you can buy and sell investments freely without triggering capital gains tax on each transaction — the tax treatment is handled entirely at contribution and withdrawal instead, which is a big part of why these accounts exist. This is also a real, practical reason people hold their most frequently-traded or highest-growth investments inside a retirement account when they have the choice, and save the taxable account for things they're likely to hold for years without much buying and selling.
+Everything above is specific to a regular ("taxable") [brokerage account]({{ '/what-is-a-brokerage-account/' | relative_url }}). Inside a [Roth or Traditional IRA]({{ '/traditional-vs-roth-ira/' | relative_url }}), you can buy and sell investments freely without triggering capital gains tax on each transaction — the tax treatment is handled entirely at contribution and withdrawal instead, which is a big part of why these accounts exist. This is also a real, practical reason people hold their most frequently-traded or highest-growth investments inside a retirement account when they have the choice, and save the taxable account for things they're likely to hold for years without much buying and selling.
 
 ## Why this quietly favors buy-and-hold
 

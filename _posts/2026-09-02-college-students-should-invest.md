@@ -47,7 +47,7 @@ A few things that trip people up before they even start:
 
 ## How to actually open an account
 
-The mechanical part is the easy part — it's a form, an ID, and a bank transfer, same as opening any bank account. Most major brokerages (Fidelity, Schwab, Robinhood, and others) let you open an individual brokerage account online in about ten minutes with no minimum deposit required to get started.
+The mechanical part is the easy part — it's a form, an ID, and a bank transfer, same as opening any bank account. Most major brokerages (Fidelity, Schwab, Robinhood, and others) let you open an individual [brokerage account]({{ '/what-is-a-brokerage-account/' | relative_url }}) online in about ten minutes with no minimum deposit required to get started.
 
 <div class="cta-box">
 <p>I personally use <strong>Robinhood</strong>, and if you're deciding where to open your first account, here's my referral link. Disclosure: if you sign up and fund an account through it, we both get a free stock or cash reward — you get $5–$200, I get $50.</p>

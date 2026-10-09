@@ -24,7 +24,7 @@ I mention Robinhood a lot on this site, because it's the brokerage I actually us
 
 ## What it actually is
 
-Robinhood is a mobile-first brokerage — I can open an individual brokerage account, a retirement account, and trade stocks, [ETFs]({{ '/etf-vs-mutual-fund-vs-index-fund/' | relative_url }}), options, and crypto, all from an app built to feel more like a consumer app than a trading terminal. That design choice is the whole story of both what it does well and where it falls short.
+Robinhood is a mobile-first brokerage — I can open an individual [brokerage account]({{ '/what-is-a-brokerage-account/' | relative_url }}), a retirement account, and trade stocks, [ETFs]({{ '/etf-vs-mutual-fund-vs-index-fund/' | relative_url }}), options, and crypto, all from an app built to feel more like a consumer app than a trading terminal. That design choice is the whole story of both what it does well and where it falls short.
 
 <!--more-->
 
