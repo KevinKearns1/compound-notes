@@ -54,7 +54,7 @@ It's not wrong for the audience it's usually aimed at. Most personal finance con
 
 ## What nobody can actually know for certain
 
-The honest complication: nobody knows their future tax bracket with certainty. It depends on future income (yours), and on future tax law (the government's), and both can genuinely change over 20-30 years. This isn't a reason to freeze up over the decision — it's a reason to treat "which bracket am I probably in now vs. later" as a reasonable best guess, not a precise calculation, and to not be surprised if the honest answer for you is "close enough that either is fine."
+The honest complication: nobody knows their future [tax bracket]({{ '/marginal-vs-effective-tax-rate/' | relative_url }}) with certainty. It depends on future income (yours), and on future tax law (the government's), and both can genuinely change over 20-30 years. This isn't a reason to freeze up over the decision — it's a reason to treat "which bracket am I probably in now vs. later" as a reasonable best guess, not a precise calculation, and to not be surprised if the honest answer for you is "close enough that either is fine."
 
 ## The practical middle ground
 

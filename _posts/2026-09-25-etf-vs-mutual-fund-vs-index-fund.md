@@ -27,7 +27,7 @@ I've told you to buy "a broad index fund" more times than I can count on this bl
 Both can hold the exact same underlying investments — hundreds or thousands of [stocks]({{ '/what-is-a-stock/' | relative_url }}), tracking the same index. The difference is entirely in the mechanics of ownership and trading:
 
 - **Mutual funds** price and trade **once per day**, after the market closes. Submit an order any time during the day, and it executes at that day's single closing price ("net asset value"), determined after trading ends — you don't know your exact execution price the moment you place the order.
-- **ETFs (exchange-traded funds)** trade **continuously throughout the day**, exactly like an individual stock. You can watch the price move minute to minute, place a limit order at a specific price, or buy and sell multiple times in the same day if you wanted to.
+- **ETFs (exchange-traded funds)** trade **continuously throughout the day**, exactly like an individual stock. You can watch the price move minute to minute, place a [limit order]({{ '/market-order-vs-limit-order/' | relative_url }}) at a specific price, or buy and sell multiple times in the same day if you wanted to.
 
 This single difference explains most of the other practical distinctions people notice.
 

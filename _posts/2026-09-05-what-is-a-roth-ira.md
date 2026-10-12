@@ -36,7 +36,7 @@ That second part is the whole point. A stock that grows from $1,000 into $10,000
 
 Because the benefit is "tax-free growth," and growth compounds over time, the value of a Roth IRA opened at 22 versus one opened at 35 isn't just "13 more years of contributions" — it's 13 more years of a much bigger balance growing completely untaxed. The earlier you open one, the more total growth ends up permanently shielded from tax, which is a bigger deal than most first-time explanations make it sound.
 
-This is also why a Roth IRA is arguably a better first account for someone young and early-career than it looks on paper: you're very likely in a lower tax bracket right now than you will be later, which means paying tax on the money going in *today*, while your bracket is low, in exchange for zero tax on the (much larger) amount coming out later, is a genuinely good trade — one that gets worse the longer you wait to make it, since it only applies to contributions you make while you're still in a lower bracket.
+This is also why a Roth IRA is arguably a better first account for someone young and early-career than it looks on paper: you're very likely in a lower [tax bracket]({{ '/marginal-vs-effective-tax-rate/' | relative_url }}) right now than you will be later, which means paying tax on the money going in *today*, while your bracket is low, in exchange for zero tax on the (much larger) amount coming out later, is a genuinely good trade — one that gets worse the longer you wait to make it, since it only applies to contributions you make while you're still in a lower bracket.
 
 ## What you actually need to know to open one
 
