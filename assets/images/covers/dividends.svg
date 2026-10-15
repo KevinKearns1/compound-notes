@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="A tree dropping coins into a basket on a regular schedule, with some coins being replanted to grow new branches, illustrating a dividend payment and reinvestment">
+  <defs>
+    <pattern id="hatch35" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain35" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+  <line x1="40" y1="340" x2="560" y2="340" stroke="#CAD0BC" stroke-width="2"/>
+
+  <!-- trunk -->
+  <path d="M290,340 L290,240 Q288,210 300,190 Q312,210 310,240 L310,340 Z" fill="#54604F" stroke="#1E2A20" stroke-width="2.4"/>
+
+  <!-- canopy, made of overlapping leafy coin-like blobs -->
+  <g fill="#1B6E5C" stroke="#1E2A20" stroke-width="2.2">
+    <circle cx="300" cy="150" r="52"/>
+    <circle cx="246" cy="178" r="40"/>
+    <circle cx="354" cy="178" r="40"/>
+    <circle cx="300" cy="200" r="46"/>
+  </g>
+
+  <!-- coins falling from the tree -->
+  <g fill="#A9781F" stroke="#1E2A20" stroke-width="2">
+    <circle cx="250" cy="250" r="12"/>
+    <circle cx="300" cy="266" r="12"/>
+    <circle cx="350" cy="252" r="12"/>
+  </g>
+  <g stroke="#1E2A20" stroke-width="1.6" stroke-dasharray="1 5" opacity="0.4">
+    <line x1="250" y1="262" x2="246" y2="296"/>
+    <line x1="300" y1="278" x2="300" y2="296"/>
+    <line x1="350" y1="264" x2="354" y2="296"/>
+  </g>
+
+  <!-- basket catching the coins -->
+  <path d="M200,300 L400,300 L384,336 Q300,350 216,336 Z" fill="#F1F2E9" stroke="#1E2A20" stroke-width="2.6"/>
+  <path d="M200,300 Q300,286 400,300" fill="none" stroke="#1E2A20" stroke-width="2.2"/>
+  <g fill="#A9781F" opacity="0.9">
+    <ellipse cx="260" cy="316" rx="16" ry="6"/>
+    <ellipse cx="300" cy="322" rx="16" ry="6"/>
+    <ellipse cx="340" cy="314" rx="16" ry="6"/>
+  </g>
+
+  <!-- a small sapling to the side, replanted dividend -->
+  <g transform="translate(470,310)">
+    <path d="M0,30 L0,4" stroke="#12503F" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M0,10 C-14,0 -20,14 -18,22 C-6,18 2,10 0,10 Z" fill="#1B6E5C" stroke="#1E2A20" stroke-width="1.8"/>
+    <path d="M0,4 C12,-6 18,8 16,16 C6,12 -2,4 0,4 Z" fill="#1B6E5C" stroke="#1E2A20" stroke-width="1.8"/>
+    <circle cx="0" cy="34" r="9" fill="#A9781F" stroke="#1E2A20" stroke-width="1.8"/>
+  </g>
+  <path d="M404,312 L458,316" stroke="#1E2A20" stroke-width="1.8" stroke-dasharray="1 5" stroke-linecap="round" opacity="0.4"/>
+
+  <ellipse cx="300" cy="346" rx="200" ry="9" fill="url(#hatch35)" opacity="0.25"/>
+
+  <rect width="600" height="400" filter="url(#grain35)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
