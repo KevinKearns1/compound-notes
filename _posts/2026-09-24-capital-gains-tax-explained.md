@@ -42,7 +42,7 @@ This is also why "I don't want to sell because of the taxes" is sometimes a real
 
 ## Dividends get taxed too — even if you don't sell anything
 
-If you own a dividend-paying stock or fund, the dividends themselves are taxable income in the year you receive them, whether or not you sell anything and whether or not you reinvest them automatically. "Qualified" dividends (most dividends from stock held long enough) get the same lower long-term rates; "ordinary" (non-qualified) dividends are taxed like short-term gains, at your regular income tax rate. Reinvesting a dividend into more shares doesn't make it tax-free — it just means you're using after-tax money to buy more of the investment.
+If you own a [dividend]({{ '/what-is-a-dividend/' | relative_url }})-paying stock or fund, the dividends themselves are taxable income in the year you receive them, whether or not you sell anything and whether or not you reinvest them automatically. "Qualified" dividends (most dividends from stock held long enough) get the same lower long-term rates; "ordinary" (non-qualified) dividends are taxed like short-term gains, at your regular income tax rate. Reinvesting a dividend into more shares doesn't make it tax-free — it just means you're using after-tax money to buy more of the investment.
 
 ## Losses aren't just bad news, tax-wise
 
