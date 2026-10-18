@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="A set of gears automatically sorting coins into separate labeled jars according to a dial setting, illustrating a robo-advisor automatically allocating a portfolio">
+  <defs>
+    <pattern id="hatch37" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain37" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+  <line x1="40" y1="340" x2="560" y2="340" stroke="#CAD0BC" stroke-width="2"/>
+
+  <!-- central gear mechanism -->
+  <g transform="translate(300,160)">
+    <circle r="40" fill="#54604F" stroke="#1E2A20" stroke-width="2.6"/>
+    <g fill="#54604F" stroke="#1E2A20" stroke-width="2">
+      <rect x="-6" y="-52" width="12" height="16"/>
+      <rect x="-6" y="36" width="12" height="16"/>
+      <rect x="-52" y="-6" width="16" height="12"/>
+      <rect x="36" y="-6" width="16" height="12"/>
+      <rect x="-40" y="-34" width="13" height="13" transform="rotate(45 -34 -28)"/>
+      <rect x="27" y="-34" width="13" height="13" transform="rotate(45 34 -28)"/>
+      <rect x="-40" y="21" width="13" height="13" transform="rotate(45 -34 28)"/>
+      <rect x="27" y="21" width="13" height="13" transform="rotate(45 34 28)"/>
+    </g>
+    <circle r="14" fill="#F6F7F0" stroke="#1E2A20" stroke-width="2.2"/>
+  </g>
+
+  <!-- small feeder gear -->
+  <g transform="translate(300,86)">
+    <circle r="16" fill="#79843B" stroke="#1E2A20" stroke-width="2.2"/>
+    <circle r="6" fill="#F6F7F0"/>
+  </g>
+  <circle cx="300" cy="60" r="8" fill="#A9781F" stroke="#1E2A20" stroke-width="1.8"/>
+
+  <!-- three chutes to three jars -->
+  <path d="M275,195 C230,215 190,240 160,270" stroke="#1E2A20" stroke-width="2" stroke-dasharray="1 6" fill="none" opacity="0.5"/>
+  <path d="M300,200 L300,270" stroke="#1E2A20" stroke-width="2" stroke-dasharray="1 6" opacity="0.5"/>
+  <path d="M325,195 C370,215 410,240 440,270" stroke="#1E2A20" stroke-width="2" stroke-dasharray="1 6" fill="none" opacity="0.5"/>
+
+  <!-- three jars with different fill levels -->
+  <g>
+    <rect x="130" y="270" width="60" height="60" rx="6" fill="#F1F2E9" stroke="#1E2A20" stroke-width="2.2"/>
+    <rect x="134" y="300" width="52" height="26" fill="#A9781F" opacity="0.85"/>
+  </g>
+  <g>
+    <rect x="270" y="270" width="60" height="60" rx="6" fill="#F1F2E9" stroke="#1E2A20" stroke-width="2.2"/>
+    <rect x="274" y="288" width="52" height="38" fill="#1B6E5C" opacity="0.85"/>
+  </g>
+  <g>
+    <rect x="410" y="270" width="60" height="60" rx="6" fill="#F1F2E9" stroke="#1E2A20" stroke-width="2.2"/>
+    <rect x="414" y="310" width="52" height="16" fill="#12503F" opacity="0.85"/>
+  </g>
+
+  <ellipse cx="300" cy="344" rx="200" ry="9" fill="url(#hatch37)" opacity="0.2"/>
+
+  <rect width="600" height="400" filter="url(#grain37)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
