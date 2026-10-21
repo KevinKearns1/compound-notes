@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Two jars of coins for medical costs, one with a clock above it counting down to empty and one growing steadily with no deadline, illustrating the use-it-or-lose-it difference between an FSA and an HSA">
+  <defs>
+    <pattern id="hatch39" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain39" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+  <line x1="40" y1="340" x2="560" y2="340" stroke="#CAD0BC" stroke-width="2"/>
+
+  <!-- left: FSA jar, draining, clock above -->
+  <g>
+    <path d="M120,200 L120,310 Q120,326 136,326 L204,326 Q220,326 220,310 L220,200"
+          fill="#F1F2E9" stroke="#1E2A20" stroke-width="2.6"/>
+    <path d="M114,190 Q170,174 226,190 L220,202 L120,202 Z" fill="#EEF0E6" stroke="#1E2A20" stroke-width="2.6"/>
+    <g fill="#A9781F" opacity="0.85">
+      <ellipse cx="170" cy="300" rx="38" ry="9"/>
+      <ellipse cx="170" cy="282" rx="38" ry="9"/>
+    </g>
+    <!-- empty upper portion dashed to show draining -->
+    <path d="M132,212 L208,212 L208,264 L132,264 Z" fill="none" stroke="#1E2A20" stroke-width="1.6" stroke-dasharray="2 5" opacity="0.35"/>
+  </g>
+  <!-- clock above FSA jar -->
+  <g transform="translate(170,140)">
+    <circle r="26" fill="#F6F7F0" stroke="#1E2A20" stroke-width="2.6"/>
+    <line x1="0" y1="0" x2="0" y2="-16" stroke="#1E2A20" stroke-width="2.4" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="12" y2="4" stroke="#1E2A20" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+  <path d="M170,166 L170,190" stroke="#1E2A20" stroke-width="2" stroke-dasharray="1 5" opacity="0.4"/>
+  <text x="170" y="358" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#1E2A20" opacity="0.75">FSA</text>
+  <ellipse cx="170" cy="332" rx="58" ry="8" fill="url(#hatch39)" opacity="0.3"/>
+
+  <!-- right: HSA jar, growing, no clock, a sprout instead -->
+  <g>
+    <path d="M400,160 L400,310 Q400,326 416,326 L484,326 Q500,326 500,310 L500,160"
+          fill="#F1F2E9" stroke="#1E2A20" stroke-width="2.8"/>
+    <path d="M394,150 Q450,132 506,150 L500,162 L400,162 Z" fill="#EEF0E6" stroke="#1E2A20" stroke-width="2.8"/>
+    <g fill="#1B6E5C" opacity="0.9">
+      <ellipse cx="450" cy="300" rx="40" ry="9"/>
+      <ellipse cx="450" cy="280" rx="40" ry="9"/>
+      <ellipse cx="450" cy="260" rx="40" ry="9"/>
+      <ellipse cx="450" cy="240" rx="40" ry="9"/>
+      <ellipse cx="450" cy="220" rx="40" ry="9"/>
+      <ellipse cx="450" cy="200" rx="40" ry="9"/>
+      <ellipse cx="450" cy="180" rx="40" ry="9"/>
+    </g>
+  </g>
+  <!-- small sprout above HSA jar, no deadline -->
+  <g transform="translate(450,138)">
+    <path d="M0,18 L0,0" stroke="#12503F" stroke-width="3" stroke-linecap="round"/>
+    <path d="M0,4 C-10,-4 -16,6 -14,12 C-6,10 2,4 0,4 Z" fill="#1B6E5C" stroke="#1E2A20" stroke-width="1.6"/>
+    <path d="M0,0 C8,-8 14,2 12,8 C4,6 -2,0 0,0 Z" fill="#1B6E5C" stroke="#1E2A20" stroke-width="1.6"/>
+  </g>
+  <text x="450" y="358" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#1E2A20" opacity="0.75">HSA</text>
+  <ellipse cx="450" cy="332" rx="62" ry="8" fill="url(#hatch39)" opacity="0.3"/>
+
+  <rect width="600" height="400" filter="url(#grain39)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
