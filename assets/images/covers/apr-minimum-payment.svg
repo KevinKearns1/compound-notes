@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="A snail carrying a shrinking coin up a long steep hill marked with a distant finish flag, illustrating how slowly a credit card balance shrinks under minimum payments">
+  <defs>
+    <pattern id="hatch40" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain40" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+
+  <!-- long steep hill -->
+  <path d="M0,340 C120,330 220,270 320,210 C420,150 500,110 600,70 L600,400 L0,400 Z"
+        fill="#DCE2D0"/>
+  <path d="M0,340 C120,330 220,270 320,210 C420,150 500,110 600,70"
+        fill="none" stroke="#1E2A20" stroke-width="2.2" opacity="0.5"/>
+
+  <!-- distant finish flag -->
+  <g transform="translate(540,92)">
+    <line x1="0" y1="0" x2="0" y2="46" stroke="#1E2A20" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M0,0 L28,8 L0,16 Z" fill="#A9781F" stroke="#1E2A20" stroke-width="1.6"/>
+  </g>
+
+  <!-- snail near the bottom of the hill, carrying a coin -->
+  <g transform="translate(150,322)">
+    <!-- shell -->
+    <circle cx="-4" cy="-18" r="20" fill="#54604F" stroke="#1E2A20" stroke-width="2.2"/>
+    <path d="M-4,-18 m-12,0 a12,12 0 1,1 24,0" fill="none" stroke="#1E2A20" stroke-width="1.6" opacity="0.4"/>
+    <!-- body -->
+    <path d="M-30,4 C-20,-6 10,-6 24,4 C24,10 18,14 10,14 L-22,14 C-28,14 -30,10 -30,4 Z"
+          fill="#79843B" stroke="#1E2A20" stroke-width="2.2"/>
+    <path d="M18,0 C24,-6 30,-4 32,2" stroke="#1E2A20" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <circle cx="32" cy="0" r="2.6" fill="#1E2A20"/>
+  </g>
+
+  <!-- the coin on the snail's back, smaller than it "should" be -->
+  <circle cx="146" cy="290" r="16" fill="#A9781F" stroke="#1E2A20" stroke-width="2.2"/>
+  <text x="146" y="295" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#F6F7F0">$</text>
+
+  <!-- faint dashed trail showing a long way still to go -->
+  <path d="M150,330 C250,290 350,220 500,120" fill="none" stroke="#1E2A20" stroke-width="2" stroke-dasharray="1 7" opacity="0.4"/>
+
+  <rect width="600" height="400" filter="url(#grain40)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
