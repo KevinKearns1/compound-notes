@@ -56,7 +56,7 @@ Having a mix of credit types (a credit card and a car loan, say, rather than onl
 
 ## Myths worth actually dropping
 
-**"Carrying a balance and paying interest helps your score."** No — this is one of the most common and costliest myths in personal finance. The scoring model only sees your reported balance and utilization, not whether you paid it off in full or carried it with interest. Paying your statement balance in full every month gives you the same utilization benefit as carrying a balance, minus the interest charge. There's no scoring upside to paying interest, ever.
+**"Carrying a balance and paying interest helps your score."** No — this is one of the most common and costliest myths in personal finance. The scoring model only sees your reported balance and utilization, not whether you paid it off in full or carried it with interest. Paying your statement balance in full every month gives you the same utilization benefit as carrying a balance, minus the [interest charge]({{ '/what-is-apr/' | relative_url }}). There's no scoring upside to paying interest, ever.
 
 **"Checking your own credit score hurts it."** No — checking your own score is a "soft inquiry" and doesn't affect it at all. Only "hard inquiries" from actually applying for new credit have a small impact. Check your own score as often as you want.
 
