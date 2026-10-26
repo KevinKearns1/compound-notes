@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="A single coin balanced on a thin, erratic zigzag line with no visible floor beneath it, contrasted with a steadier line nearby, illustrating cryptocurrency's price having no underlying earnings to anchor it">
+  <defs>
+    <pattern id="hatch42" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain42" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+  <line x1="40" y1="340" x2="560" y2="340" stroke="#CAD0BC" stroke-width="2"/>
+
+  <!-- steadier stock-like line, lower, more gradual -->
+  <path d="M60,260 C140,250 200,240 260,232 C340,222 420,210 540,196"
+        fill="none" stroke="#1B6E5C" stroke-width="2.6" stroke-linecap="round" opacity="0.7"/>
+  <circle cx="540" cy="196" r="7" fill="#1B6E5C" stroke="#1E2A20" stroke-width="1.6"/>
+  <text x="60" y="252" font-family="Georgia, serif" font-size="13" fill="#1E2A20" opacity="0.6">stock, anchored to earnings</text>
+
+  <!-- erratic crypto zigzag line, floating with no floor -->
+  <path d="M60,150 C100,100 130,190 170,120 C210,60 250,170 290,90 C330,40 370,180 410,110 C450,50 490,160 530,80"
+        fill="none" stroke="#A9781F" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- coin balanced precariously at the end of the crypto line -->
+  <g transform="translate(530,80)">
+    <circle r="22" fill="#A9781F" stroke="#1E2A20" stroke-width="2.6"/>
+    <circle r="11" fill="#F6F7F0" opacity="0.7"/>
+  </g>
+  <!-- dashed line down showing no floor beneath the coin -->
+  <path d="M530,102 L530,160" stroke="#1E2A20" stroke-width="1.8" stroke-dasharray="1 6" opacity="0.4"/>
+  <path d="M520,150 L530,164 L540,150" fill="none" stroke="#1E2A20" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
+  <text x="440" y="46" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#1E2A20" opacity="0.6">crypto, no earnings anchor</text>
+
+  <ellipse cx="530" cy="346" rx="60" ry="9" fill="url(#hatch42)" opacity="0.25"/>
+
+  <rect width="600" height="400" filter="url(#grain42)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
