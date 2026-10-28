@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="A small pile of reward coins being outweighed by a single larger coin marked with a percent sign, illustrating how interest charges can overwhelm an entire year of credit card rewards">
+  <defs>
+    <pattern id="hatch43" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain43" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+
+  <!-- seesaw balance -->
+  <path d="M300,260 L278,310 L322,310 Z" fill="#DCE2D0" stroke="#1E2A20" stroke-width="2.2"/>
+  <line x1="300" y1="210" x2="300" y2="260" stroke="#1E2A20" stroke-width="3"/>
+
+  <g transform="rotate(10 300 210)">
+    <line x1="150" y1="210" x2="450" y2="210" stroke="#1E2A20" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- left pan: small rewards coins, lifted high -->
+    <path d="M150,210 L150,232" stroke="#1E2A20" stroke-width="2" opacity="0.6"/>
+    <path d="M128,232 Q150,244 172,232" fill="#DCE2D0" stroke="#1E2A20" stroke-width="2"/>
+    <g fill="#1B6E5C" opacity="0.9">
+      <ellipse cx="150" cy="222" rx="18" ry="6"/>
+      <ellipse cx="138" cy="214" rx="14" ry="5"/>
+      <ellipse cx="162" cy="214" rx="14" ry="5"/>
+    </g>
+
+    <!-- right pan: one big interest coin, sitting low -->
+    <path d="M450,210 L450,268" stroke="#1E2A20" stroke-width="2.4" opacity="0.6"/>
+    <path d="M414,268 Q450,288 486,268" fill="#DCE2D0" stroke="#1E2A20" stroke-width="2.4"/>
+    <circle cx="450" cy="238" r="34" fill="#A9781F" stroke="#1E2A20" stroke-width="2.6"/>
+    <text x="450" y="245" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#F6F7F0">%</text>
+  </g>
+
+  <line x1="60" y1="340" x2="560" y2="340" stroke="#CAD0BC" stroke-width="2"/>
+  <text x="172" y="188" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#1E2A20" opacity="0.65">rewards</text>
+  <text x="498" y="300" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#1E2A20" opacity="0.65">interest</text>
+
+  <ellipse cx="300" cy="346" rx="140" ry="9" fill="url(#hatch43)" opacity="0.25"/>
+
+  <rect width="600" height="400" filter="url(#grain43)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
