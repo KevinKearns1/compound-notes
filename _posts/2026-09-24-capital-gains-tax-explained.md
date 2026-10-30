@@ -11,6 +11,7 @@ reading_time: 7
 cover: /assets/images/covers/capital-gains.svg
 image: /assets/images/covers/capital-gains.png
 cover_alt: "A calendar page marking a one-year line, with a coin stack taking a large bite before the line and a smaller bite after it, illustrating how the holding period changes the capital gains tax rate"
+related: [what-is-a-dividend, what-is-a-brokerage-account, traditional-vs-roth-ira, index-funds-vs-individual-stocks]
 ---
 
 I've written a dozen posts assuming you'll eventually sell something you bought — an index fund, a stock, whatever — without ever explaining what happens tax-wise when you do. Selling an investment for more than you paid for it is a taxable event, and the tax you owe depends heavily on one date most people aren't tracking: how long you held it.

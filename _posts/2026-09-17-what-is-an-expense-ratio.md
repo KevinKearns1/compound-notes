@@ -11,6 +11,7 @@ reading_time: 6
 cover: /assets/images/covers/expense-ratio.svg
 image: /assets/images/covers/expense-ratio.png
 cover_alt: "Two identical growing plants in jars, one with a small leak draining coins from its base, illustrating how a fund fee quietly drains returns over time"
+related: [index-funds-vs-individual-stocks]
 ---
 
 I've told you to buy [broad index funds]({{ '/index-funds-vs-individual-stocks/' | relative_url }}) a few times on here without explaining the one number that actually determines which specific fund you should pick once you're choosing between them. That number is the expense ratio, and the difference between a good one and a bad one is a lot bigger than the tiny percentage suggests.

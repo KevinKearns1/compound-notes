@@ -10,6 +10,7 @@ reading_time: 8
 cover: /assets/images/covers/lessons-learned.svg
 image: /assets/images/covers/lessons-learned.png
 cover_alt: "A stack of three overlapping notecards with lines of notes"
+related: [what-is-an-expense-ratio, what-is-diversification]
 ---
 
 None of this gets taught in school, and most of it doesn't show up in the finance content that's optimized for getting watched rather than getting understood. These are the things that tend to click a decade later than they should — after a market drop, a bad trade, or a friend's smug story about a stock that "tripled." A few of them are boring on purpose. That's kind of the point.

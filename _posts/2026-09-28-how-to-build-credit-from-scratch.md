@@ -12,6 +12,7 @@ reading_time: 6
 cover: /assets/images/covers/build-credit.svg
 image: /assets/images/covers/build-credit.png
 cover_alt: "A small seedling growing inside a single footprint on an otherwise empty path, illustrating the first step of building credit history from nothing"
+related: [what-actually-moves-your-credit-score]
 ---
 
 I [broke down what actually moves a credit score]({{ '/what-actually-moves-your-credit-score/' | relative_url }}) once you have one, but skipped the more basic problem underneath it: what do you actually do when you have *no* credit history at all? Lenders want to see a track record before extending credit, but you can't build a track record without first getting some form of credit — it's a real chicken-and-egg problem, and it has a real, specific answer.

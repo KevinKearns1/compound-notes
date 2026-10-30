@@ -12,6 +12,7 @@ reading_time: 7
 cover: /assets/images/covers/crypto.svg
 image: /assets/images/covers/crypto.png
 cover_alt: "A single coin balanced on a thin, erratic zigzag line with no visible floor beneath it, contrasted with a steadier line nearby, illustrating cryptocurrency's price having no underlying earnings to anchor it"
+related: [robinhood-review, what-are-options, what-is-a-stock, what-is-a-dividend]
 ---
 
 I mentioned that [Robinhood]({{ '/robinhood-review/' | relative_url }}) supports [options]({{ '/what-are-options/' | relative_url }}) and crypto in the same sentence, and explained options without ever getting to crypto. It deserves the same honest treatment — not hype, not dismissal, just what it actually is and how it's genuinely different from everything else covered on this blog.

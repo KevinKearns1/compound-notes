@@ -12,6 +12,7 @@ reading_time: 6
 cover: /assets/images/covers/brokerage-account.svg
 image: /assets/images/covers/brokerage-account.png
 cover_alt: "A clear container holding stock, bond, and fund shapes side by side, distinct from a sealed cash-only container, illustrating a brokerage account as a different kind of account from a bank account"
+related: [what-is-a-stock, what-is-a-bond, etf-vs-mutual-fund-vs-index-fund, traditional-vs-roth-ira]
 ---
 
 I've used the phrase "brokerage account" in nearly every post on this blog — "a regular brokerage account," "your Robinhood brokerage account," "a taxable brokerage account" — without ever stopping to explain what one actually is. If you've opened one but never quite had it explained plainly, or you're still picturing it as "a fancier bank account," here's the actual answer.

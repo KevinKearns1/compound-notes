@@ -12,6 +12,7 @@ reading_time: 7
 cover: /assets/images/covers/traditional-vs-roth.svg
 image: /assets/images/covers/traditional-vs-roth.png
 cover_alt: "Two identical jars of coins, one taxed at the entrance with a coin removed going in and one taxed at the exit with a coin removed coming out, illustrating the two ways an IRA can be taxed"
+related: [what-is-a-roth-ira, marginal-vs-effective-tax-rate]
 ---
 
 I wrote about [what a Roth IRA is]({{ '/what-is-a-roth-ira/' | relative_url }}) and mentioned its main alternative, a Traditional IRA, in one paragraph near the bottom without actually doing the math on how they compare. That undersells it — this is a real decision with a real answer, and the answer isn't "Roth, obviously," even though that's the framing most beginner content defaults to.

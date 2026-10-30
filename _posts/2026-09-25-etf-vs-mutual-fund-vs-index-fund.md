@@ -12,6 +12,7 @@ reading_time: 7
 cover: /assets/images/covers/etf-vs-mutual-fund.svg
 image: /assets/images/covers/etf-vs-mutual-fund.png
 cover_alt: "Two identical baskets of small shapes, one sealed and only opened once a day and one on a moving conveyor belt trading continuously, illustrating the difference between a mutual fund and an ETF holding the same underlying investments"
+related: [what-is-a-stock, market-order-vs-limit-order, what-is-an-expense-ratio]
 ---
 
 I've told you to buy "a broad index fund" more times than I can count on this blog, and I've never once clarified that "index fund" isn't actually a type of account or a legal structure — it's a strategy. That strategy gets sold to you wrapped in one of two very different packages: a mutual fund or an ETF. Worth actually untangling, especially before you're staring at a brokerage app trying to decide between two tickers that seem to do the same thing.

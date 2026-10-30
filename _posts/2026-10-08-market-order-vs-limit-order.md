@@ -12,6 +12,7 @@ reading_time: 6
 cover: /assets/images/covers/market-vs-limit-order.svg
 image: /assets/images/covers/market-vs-limit-order.png
 cover_alt: "Two arrows aiming at a moving price target, one firing immediately at whatever price it currently shows and one waiting, held back by a marked price line, until the target reaches it"
+related: [what-is-a-brokerage-account]
 ---
 
 I [explained what a brokerage account actually is]({{ '/what-is-a-brokerage-account/' | relative_url }}) without ever explaining what happens the moment you place a trade inside one. The order type you pick — market or limit — changes what you actually get, and it's not just a technical setting buried in an "advanced" menu.

@@ -13,6 +13,7 @@ reading_time: 8
 cover: /assets/images/covers/robinhood-review.svg
 image: /assets/images/covers/robinhood-review.png
 cover_alt: "A phone screen showing a simple rising line chart, illustrating a mobile-first trading app"
+related: [what-is-a-brokerage-account, etf-vs-mutual-fund-vs-index-fund]
 ---
 
 I mention Robinhood a lot on this site, because it's the brokerage I actually use — but "I use it" isn't the same as an honest assessment, so here's the real review: pros and cons, not just another passing mention.

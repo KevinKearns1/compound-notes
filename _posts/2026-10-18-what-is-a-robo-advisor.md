@@ -11,6 +11,7 @@ reading_time: 7
 cover: /assets/images/covers/robo-advisor.svg
 image: /assets/images/covers/robo-advisor.png
 cover_alt: "A set of gears automatically sorting coins into separate labeled jars according to a dial setting, illustrating a robo-advisor automatically allocating a portfolio"
+related: [what-is-a-target-date-fund, what-is-rebalancing, what-is-diversification, etf-vs-mutual-fund-vs-index-fund]
 ---
 
 I've described two hands-off approaches so far — a [target-date fund]({{ '/what-is-a-target-date-fund/' | relative_url }}) for retirement accounts, and a DIY two-fund mix you [rebalance]({{ '/what-is-rebalancing/' | relative_url }}) yourself. There's a third option that gets marketed heavily: the robo-advisor. Here's what it's actually doing, since "an algorithm manages your money" undersells it and oversells it at the same time.

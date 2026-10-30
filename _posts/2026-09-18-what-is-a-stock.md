@@ -11,6 +11,7 @@ reading_time: 6
 cover: /assets/images/covers/what-is-a-stock.svg
 image: /assets/images/covers/what-is-a-stock.png
 cover_alt: "A single certificate labeled as one piece out of a whole company shape, illustrating fractional ownership represented by a share of stock"
+related: [capital-gains-tax-explained, what-is-a-bond]
 ---
 
 I've written about index funds, individual stocks, dollar-cost averaging, and a dozen other things on here without ever stopping to explain the actual base unit underneath all of it: what a share of stock is, and what you legally get when you own one. Worth fixing.

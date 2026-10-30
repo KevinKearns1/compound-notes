@@ -12,6 +12,7 @@ reading_time: 7
 cover: /assets/images/covers/options.svg
 image: /assets/images/covers/options.png
 cover_alt: "A small lever magnifying both a large upward arrow and a large downward arrow from a small input motion, illustrating how options amplify both gains and losses relative to owning the stock directly"
+related: [robinhood-review, etf-vs-mutual-fund-vs-index-fund, what-is-diversification, dollar-cost-averaging]
 ---
 
 I mentioned that [Robinhood]({{ '/robinhood-review/' | relative_url }}) supports trading options without ever explaining what one actually is. They come up constantly in investing content, they're genuinely more complex than anything else covered on this blog, and the honest short version is: understand the mechanism before you decide whether they belong in your strategy, which for most people reading this, they shouldn't yet.

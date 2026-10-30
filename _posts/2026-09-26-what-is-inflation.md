@@ -11,6 +11,7 @@ reading_time: 6
 cover: /assets/images/covers/inflation.svg
 image: /assets/images/covers/inflation.png
 cover_alt: "A single dollar bill shrinking in size across a timeline while prices on shelf tags climb, illustrating how the same amount of money buys less over time"
+related: [what-is-a-bond, what-is-an-expense-ratio]
 ---
 
 I mentioned in an earlier post that money sitting in a savings account "loses real purchasing power" to inflation without ever explaining the actual mechanism — and I've talked about 7% average returns in several posts since without mentioning that 7% isn't really 7%, once inflation is in the picture. Both of those deserve the real math.

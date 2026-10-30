@@ -11,6 +11,7 @@ reading_time: 7
 cover: /assets/images/covers/apr-minimum-payment.svg
 image: /assets/images/covers/apr-minimum-payment.png
 cover_alt: "A snail carrying a shrinking coin up a long steep hill marked with a distant finish flag, illustrating how slowly a credit card balance shrinks under minimum payments"
+related: [50-30-20-budget-rule, what-is-compound-interest]
 ---
 
 I've cited "20%+ APR credit card debt" twice on this blog — in the [budget rule post]({{ '/50-30-20-budget-rule/' | relative_url }}) and the [compound interest post]({{ '/what-is-compound-interest/' | relative_url }}) — without ever explaining what APR actually is, or showing what "just pay the minimum" actually does to a balance over time. The real math is worse than the sticker number suggests.

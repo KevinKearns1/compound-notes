@@ -11,6 +11,7 @@ reading_time: 7
 cover: /assets/images/covers/cd-vs-hysa.svg
 image: /assets/images/covers/cd-vs-hysa.png
 cover_alt: "A padlocked jar of coins next to an open jar of coins, illustrating a certificate of deposit's locked-in rate compared to a high-yield savings account's open access"
+related: [high-yield-savings-accounts, what-is-apr, emergency-fund-how-much]
 ---
 
 I've written about [high-yield savings accounts]({{ '/high-yield-savings-accounts/' | relative_url }}) as the fix for cash sitting in a low-interest account, without ever covering the other common option for the same money: a certificate of deposit. The two get compared constantly, and the real difference isn't really about which one pays more — it's about what you're trading away to get a locked-in rate.

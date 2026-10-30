@@ -12,6 +12,7 @@ reading_time: 6
 cover: /assets/images/covers/cost-basis.svg
 image: /assets/images/covers/cost-basis.png
 cover_alt: "A receipt with a growing stack of smaller receipts stapled behind it, each one raising the total, illustrating how reinvested dividends keep adding to an investment's cost basis over time"
+related: [capital-gains-tax-explained]
 ---
 
 I [explained capital gains tax]({{ '/capital-gains-tax-explained/' | relative_url }}) — the tax on selling for more than you paid — without ever naming the number that actually defines "more than you paid." That number is cost basis, and getting it wrong is one of the few mistakes in investing that can genuinely cost you money on April's tax bill, not just in theory.

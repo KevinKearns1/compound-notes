@@ -11,6 +11,7 @@ reading_time: 7
 cover: /assets/images/covers/first-paycheck.svg
 image: /assets/images/covers/first-paycheck.png
 cover_alt: "An envelope with a paycheck splitting into three labeled streams flowing to different destinations, illustrating a paycheck divided by priority"
+related: [401k-employer-match, emergency-fund-how-much, what-is-a-roth-ira, what-is-an-hsa]
 ---
 
 A first "real" paycheck — the kind with actual room to do something beyond covering bills — dumps a lot of decisions on you at once: save it, invest it, pay off debt, build a cushion, don't forget the employer match. I've written about most of these individually. Here's the order I'd actually put them in, and why the order matters as much as the individual pieces.

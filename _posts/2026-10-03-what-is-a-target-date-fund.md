@@ -12,6 +12,7 @@ reading_time: 6
 cover: /assets/images/covers/target-date-fund.svg
 image: /assets/images/covers/target-date-fund.png
 cover_alt: "A single path sloping gradually from a stock-heavy mix to a bond-heavy mix as it approaches a marked destination year, illustrating a target-date fund's automatic shift over time"
+related: [stocks-vs-bonds-by-age, what-is-an-expense-ratio]
 ---
 
 I mentioned [target-date funds]({{ '/stocks-vs-bonds-by-age/' | relative_url }}) yesterday as the hands-off way to implement an age-based stock-to-bond mix, without actually explaining what one is. If you've ever opened a 401(k) and seen a fund named something like "Target 2060" sitting there as the default option, this is what that actually does.

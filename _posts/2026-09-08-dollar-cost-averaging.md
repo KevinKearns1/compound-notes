@@ -11,6 +11,7 @@ reading_time: 6
 cover: /assets/images/covers/dollar-cost-averaging.svg
 image: /assets/images/covers/dollar-cost-averaging.png
 cover_alt: "A rising and falling price line with four evenly spaced points dropping down to four identical coins, illustrating a fixed amount invested on a regular schedule regardless of price"
+related: [what-is-a-stock]
 ---
 
 "I'm waiting for the market to dip before I invest" is one of the most common reasons people give for not investing yet — and it sounds reasonable. Buy low, right? The problem is that nobody, including professional fund managers with entire research teams, can reliably predict when "low" actually is. Dollar-cost averaging is the strategy that sidesteps that problem entirely, by refusing to try.

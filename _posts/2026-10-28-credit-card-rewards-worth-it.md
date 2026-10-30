@@ -11,6 +11,7 @@ reading_time: 6
 cover: /assets/images/covers/credit-card-rewards.svg
 image: /assets/images/covers/credit-card-rewards.png
 cover_alt: "A small pile of reward coins being outweighed by a single larger coin marked with a percent sign, illustrating how interest charges can overwhelm an entire year of credit card rewards"
+related: [what-is-apr, what-actually-moves-your-credit-score]
 ---
 
 Credit card rewards get marketed like free money, and they can genuinely be close to that — but only under one specific condition that doesn't get stated often enough. The real math, worked through, shows how little it actually takes to erase an entire year of cashback.

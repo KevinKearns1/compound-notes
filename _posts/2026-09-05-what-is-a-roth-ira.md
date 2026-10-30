@@ -11,6 +11,7 @@ reading_time: 7
 cover: /assets/images/covers/roth-ira.svg
 image: /assets/images/covers/roth-ira.png
 cover_alt: "A sealed glass jar holding coins and a small sprout, tagged with a label, illustrating money set aside to grow untouched until later"
+related: [what-is-a-brokerage-account, what-is-a-dividend, capital-gains-tax-explained, marginal-vs-effective-tax-rate]
 ---
 
 "Roth IRA" gets thrown around like everyone's supposed to already know what it means, and then the explanations that follow are usually either too simplified to be useful ("it's for retirement!") or immediately fall into tax-code jargon about contribution limits and phase-outs. Here's the plain version.

@@ -12,6 +12,7 @@ reading_time: 7
 cover: /assets/images/covers/college-investing.svg
 image: /assets/images/covers/college-investing.png
 cover_alt: "A staircase of rising bars with a line climbing across their tops"
+related: [what-is-a-brokerage-account]
 ---
 
 Nobody tells college students to invest, and it's easy to see why. You're broke, tuition is eating whatever you do have, and "invest early" sounds like advice for someone with a salary, not someone splitting a pizza four ways to save six dollars. But the advice is aimed at you specifically — more than it's aimed at almost anyone else who will ever hear it.

@@ -11,6 +11,7 @@ reading_time: 6
 cover: /assets/images/covers/saving-vs-investing.svg
 image: /assets/images/covers/saving-vs-investing.png
 cover_alt: "Two paths diverging: a nearly flat line for savings and a steeply rising line for investing"
+related: [what-is-inflation, emergency-fund-how-much, what-is-a-brokerage-account]
 ---
 
 "I have $3,000 saved up" and "I have $3,000 invested" sound like the same sentence with a word swapped. They describe two completely different tools, built to solve two different problems, and using one where you need the other is quietly expensive in both directions. Too much money sitting in savings loses value. Money you needed to be liquid, sitting in the market, can trap you at exactly the wrong moment.

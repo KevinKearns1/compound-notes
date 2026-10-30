@@ -12,6 +12,7 @@ reading_time: 7
 cover: /assets/images/covers/dividends.svg
 image: /assets/images/covers/dividends.png
 cover_alt: "A tree dropping coins into a basket on a regular schedule, with some coins being replanted to grow new branches, illustrating a dividend payment and reinvestment"
+related: [what-is-a-stock, capital-gains-tax-explained, what-is-cost-basis, what-is-a-brokerage-account]
 ---
 
 Dividends have come up in the [stock]({{ '/what-is-a-stock/' | relative_url }}), [capital gains]({{ '/capital-gains-tax-explained/' | relative_url }}), and [cost basis]({{ '/what-is-cost-basis/' | relative_url }}) posts without ever getting their own explanation. If "dividend yield" and "dividend investing" are terms you've nodded along to without fully pinning down, here's the real mechanism — and an honest read on whether chasing them is actually a strategy.

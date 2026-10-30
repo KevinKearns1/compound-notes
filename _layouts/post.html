@@ -26,6 +26,40 @@ layout: default
     {{ content }}
   </div>
 
+  <section class="share-row" aria-label="Share this article">
+    <span class="share-label">Share this</span>
+    <a class="share-link" target="_blank" rel="noopener"
+       href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}">X</a>
+    <a class="share-link" target="_blank" rel="noopener"
+       href="https://www.reddit.com/submit?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}">Reddit</a>
+    <a class="share-link" target="_blank" rel="noopener"
+       href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url | url_encode }}">LinkedIn</a>
+    <a class="share-link"
+       href="mailto:?subject={{ page.title | url_encode }}&body={{ page.url | absolute_url | url_encode }}">Email</a>
+  </section>
+
+  {% if page.related %}
+  <section class="related-posts" aria-label="Related articles">
+    <h2>Keep reading</h2>
+    <ul class="related-post-list">
+      {% for slug in page.related %}
+        {% assign rp = site.posts | where_exp: "p", "p.url contains slug" | first %}
+        {% if rp %}
+        <li>
+          <a href="{{ rp.url | relative_url }}">{{ rp.title }}</a>
+          {% if rp.description %}<p>{{ rp.description | strip_newlines | truncate: 110 }}</p>{% endif %}
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <aside class="subscribe-cta cta-box">
+    <p><strong>New posts, as they're written.</strong> No email list yet — subscribe with any RSS reader and get each post the day it's published.</p>
+    <a class="cta-btn" href="{{ '/feed.xml' | relative_url }}">Subscribe via RSS &rarr;</a>
+  </aside>
+
   <section class="post-comments">
     <h2>Discussion</h2>
     <div id="cusdis_thread"
@@ -44,6 +78,21 @@ layout: default
     </script>
     <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
   </section>
+
+  <nav class="post-pager" aria-label="More posts">
+    {% if page.previous %}
+    <a class="post-pager-link post-pager-prev" href="{{ page.previous.url | relative_url }}">
+      <span class="post-pager-dir">&larr; Older</span>
+      <span class="post-pager-title">{{ page.previous.title }}</span>
+    </a>
+    {% else %}<span></span>{% endif %}
+    {% if page.next %}
+    <a class="post-pager-link post-pager-next" href="{{ page.next.url | relative_url }}">
+      <span class="post-pager-dir">Newer &rarr;</span>
+      <span class="post-pager-title">{{ page.next.title }}</span>
+    </a>
+    {% endif %}
+  </nav>
 
   <footer class="post-footer">
     <p><a href="{{ '/' | relative_url }}">&larr; Back to all articles</a></p>

@@ -11,6 +11,7 @@ reading_time: 6
 cover: /assets/images/covers/401k-match.svg
 image: /assets/images/covers/401k-match.png
 cover_alt: "A single coin dropped into a slot coming out doubled on the other side, illustrating an employer 401(k) match"
+related: [traditional-vs-roth-ira]
 ---
 
 Somewhere between a fifth and a third of workers with access to a 401(k) match don't contribute enough to get the full amount, depending on which survey you look at. That's not a rounding error — that's a very large number of people turning down money their employer is actively trying to give them, usually without realizing that's what's happening.

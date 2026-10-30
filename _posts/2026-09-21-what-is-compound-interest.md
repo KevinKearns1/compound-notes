@@ -12,6 +12,7 @@ reading_time: 6
 cover: /assets/images/covers/compound-interest.svg
 image: /assets/images/covers/compound-interest.png
 cover_alt: "A small cluster of coins rolling down a slope, gathering more coins and growing larger with each turn, illustrating how compound interest snowballs over time"
+related: [what-is-an-expense-ratio]
 ---
 
 I named this entire blog after this concept and have used the word "compound" or "compounds" in nearly every post without ever stopping to explain, mechanically, what it actually means. Overdue to fix.

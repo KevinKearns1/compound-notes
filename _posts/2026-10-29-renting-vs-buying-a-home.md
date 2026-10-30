@@ -11,6 +11,7 @@ reading_time: 8
 cover: /assets/images/covers/rent-vs-buy.svg
 image: /assets/images/covers/rent-vs-buy.png
 cover_alt: "A house and an apartment building on either side of a balance scale that sits level, illustrating that renting versus buying isn't a clear-cut financial winner"
+related: [what-is-apr, what-is-a-brokerage-account, what-is-compound-interest, dollar-cost-averaging]
 ---
 
 "Renting is throwing money away" gets repeated so often it sounds like a settled financial law instead of an oversimplification. It isn't settled — the actual math depends heavily on numbers specific to your situation, and working through a real comparison usually lands closer than the slogan suggests.

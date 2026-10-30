@@ -11,6 +11,7 @@ reading_time: 6
 cover: /assets/images/covers/net-worth.svg
 image: /assets/images/covers/net-worth.png
 cover_alt: "A simple balance showing a pile of assets on one side and a pile of debts on the other, with the difference between them marked as the result, illustrating net worth as assets minus liabilities"
+related: [emergency-fund-how-much, index-funds-vs-individual-stocks, what-is-compound-interest]
 ---
 
 "Net worth" sounds like a number for people with yachts, which is exactly why most people never calculate their own — but it's just a subtraction problem, and it's the single most useful number for actually knowing whether your finances are headed in the right direction.

@@ -12,6 +12,7 @@ reading_time: 7
 cover: /assets/images/covers/stocks-vs-bonds-allocation.svg
 image: /assets/images/covers/stocks-vs-bonds-allocation.png
 cover_alt: "A tilting balance scale holding stock and bond shapes, with the stock side heavier on the left and the balance shifting toward bonds as it moves to the right, illustrating how allocation shifts with age"
+related: [what-is-a-stock, what-is-a-bond, what-is-diversification, investing-lessons-learned-late]
 ---
 
 I've explained [what a stock is]({{ '/what-is-a-stock/' | relative_url }}), [what a bond is]({{ '/what-is-a-bond/' | relative_url }}), and [how much diversification actually takes]({{ '/what-is-diversification/' | relative_url }}) — but never the question that actually gets typed into a search bar: what percentage of each should I own, right now, at my age? There's a real rule of thumb here, and real reasons it's just a starting point.

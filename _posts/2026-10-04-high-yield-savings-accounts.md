@@ -11,6 +11,7 @@ reading_time: 6
 cover: /assets/images/covers/high-yield-savings.svg
 image: /assets/images/covers/high-yield-savings.png
 cover_alt: "Two identical jars of coins growing at very different rates over the same timeline, illustrating the gap between a big bank's savings rate and a high-yield savings account"
+related: [saving-vs-investing, what-is-inflation, emergency-fund-how-much]
 ---
 
 I've complained about low-interest savings accounts in both the [saving vs. investing]({{ '/saving-vs-investing/' | relative_url }}) post and the [inflation]({{ '/what-is-inflation/' | relative_url }}) post without ever actually telling you what to do about it. There's a specific, concrete fix, and it costs nothing and takes about ten minutes.

@@ -12,6 +12,7 @@ reading_time: 7
 cover: /assets/images/covers/diversification.svg
 image: /assets/images/covers/diversification.png
 cover_alt: "A single tall stack of coins next to a wide, short row of many small stacks, illustrating concentrated risk in one position versus risk spread across many"
+related: [investing-lessons-learned-late, index-funds-vs-individual-stocks]
 ---
 
 I've said "diversify" and "don't put all your eggs in one basket" more than once on this blog without ever answering the actual practical question underneath it: how many stocks does it actually take before you're meaningfully diversified? The honest answer surprises most people in both directions.

@@ -12,6 +12,7 @@ reading_time: 7
 cover: /assets/images/covers/credit-score.svg
 image: /assets/images/covers/credit-score.png
 cover_alt: "A gauge dial with five weighted sections of different sizes, illustrating the unequal factors that make up a credit score"
+related: [what-is-apr]
 ---
 
 Everything else on this site is about investing, but your credit score affects things investing never touches — the interest rate on a car loan, whether you get approved for an apartment, sometimes even job applications. I've never actually broken down what moves it, so here it is.

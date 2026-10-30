@@ -11,6 +11,7 @@ reading_time: 6
 cover: /assets/images/covers/what-is-a-bond.svg
 image: /assets/images/covers/what-is-a-bond.png
 cover_alt: "A signed IOU note with a small calendar and a coin marked with interest, illustrating a bond as a loan that gets repaid with interest on a schedule"
+related: [what-is-a-stock]
 ---
 
 I explained [what a stock actually is]({{ '/what-is-a-stock/' | relative_url }}) recently, and bonds are the other term that shows up constantly in investing advice ("a mix of stocks and bonds," "shift toward bonds as you get older") without much explanation of what a bond actually is. It's a much simpler concept than a stock, which is part of why it gets skipped over.

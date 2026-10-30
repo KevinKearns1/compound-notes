@@ -12,6 +12,7 @@ reading_time: 6
 cover: /assets/images/covers/rebalancing.svg
 image: /assets/images/covers/rebalancing.png
 cover_alt: "A tilted scale being nudged back level by a hand adjusting weights on each side, illustrating rebalancing a portfolio back to its target allocation"
+related: [stocks-vs-bonds-by-age, what-is-a-target-date-fund, what-is-diversification, what-is-a-brokerage-account]
 ---
 
 I've mentioned rebalancing in both the [stock-vs-bond allocation post]({{ '/stocks-vs-bonds-by-age/' | relative_url }}) and the [target-date fund post]({{ '/what-is-a-target-date-fund/' | relative_url }}) as something you either do yourself or a fund does automatically on your behalf, without ever explaining what it actually is or why it matters enough to build entire funds around doing it for you.

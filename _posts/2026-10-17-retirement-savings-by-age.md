@@ -12,6 +12,7 @@ reading_time: 7
 cover: /assets/images/covers/retirement-milestones.svg
 image: /assets/images/covers/retirement-milestones.png
 cover_alt: "A winding path with milestone markers at ages 30, 40, 50 and 60, each marker taller than the last, illustrating retirement savings benchmarks that grow steeper with age"
+related: [401k-employer-match, what-is-compound-interest, what-is-net-worth, what-is-an-expense-ratio]
 ---
 
 "Have 1x your salary saved by 30, 3x by 40" gets repeated across personal finance content constantly, usually with no explanation of where the numbers come from or whether they're actually realistic. I built a simple, transparent model from scratch to see what it would take — and the honest answer about being "behind" might surprise you.

@@ -12,6 +12,7 @@ reading_time: 6
 cover: /assets/images/covers/marginal-vs-effective-tax-rate.svg
 image: /assets/images/covers/marginal-vs-effective-tax-rate.png
 cover_alt: "A staircase of income with each step shaded a different intensity, showing only the top step taxed at the higher rate while the steps below keep their own lower rates, illustrating how marginal tax brackets actually work"
+related: [traditional-vs-roth-ira, capital-gains-tax-explained]
 ---
 
 I've written about tax brackets in the [Traditional vs. Roth IRA post]({{ '/traditional-vs-roth-ira/' | relative_url }}) and the [capital gains post]({{ '/capital-gains-tax-explained/' | relative_url }}) without ever explaining the single most misunderstood fact about them: a raise that pushes you into a higher tax bracket does not tax all of your income at that higher rate. This misconception has talked people out of raises, bonuses, and side income for no real reason, and the actual mechanism is simpler than the myth.

@@ -11,6 +11,7 @@ reading_time: 7
 cover: /assets/images/covers/student-loans.svg
 image: /assets/images/covers/student-loans.png
 cover_alt: "A graduation cap balanced on one side of a scale against a small growing plant on the other side, illustrating the trade-off between paying off debt and investing"
+related: [emergency-fund-how-much, college-students-should-invest, 401k-employer-match]
 ---
 
 I've said "pay off high-interest debt before investing" in a few posts on here, and left student loans out of the specifics on purpose — they deserve their own answer. A credit card at 24% interest isn't a real decision (pay it off, always). A student loan at 5-6% is a genuine judgment call, and I want to actually walk through why instead of just asserting one side.
