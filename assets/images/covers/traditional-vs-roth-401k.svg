@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Two slots feeding into the same paycheck envelope, one labeled now and one labeled later, illustrating the same tax tradeoff inside a 401(k) as inside an IRA, plus an extra unlocked slot representing no income limit">
+  <defs>
+    <pattern id="hatch46" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain46" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+
+  <!-- paycheck envelope -->
+  <g transform="translate(300,250)">
+    <rect x="-110" y="-10" width="220" height="130" rx="6" fill="#DCE2D0" stroke="#1E2A20" stroke-width="2.4"/>
+    <path d="M-110,-10 L0,70 L110,-10" fill="none" stroke="#1E2A20" stroke-width="2.2"/>
+    <text x="0" y="98" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#1E2A20" opacity="0.6">paycheck</text>
+  </g>
+
+  <!-- left feed: traditional (pre-tax), coin unmarked -->
+  <g transform="translate(190,0)">
+    <line x1="0" y1="60" x2="0" y2="230" stroke="#1E2A20" stroke-width="2.4"/>
+    <circle cx="0" cy="55" r="20" fill="#1B6E5C" stroke="#1E2A20" stroke-width="2.2"/>
+    <text x="0" y="18" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#1E2A20" opacity="0.65">now</text>
+  </g>
+
+  <!-- right feed: roth (after-tax), coin marked with % to show tax already taken -->
+  <g transform="translate(410,0)">
+    <line x1="0" y1="60" x2="0" y2="230" stroke="#1E2A20" stroke-width="2.4"/>
+    <circle cx="0" cy="55" r="20" fill="#A9781F" stroke="#1E2A20" stroke-width="2.2"/>
+    <text x="0" y="60" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#F6F7F0">%</text>
+    <text x="0" y="18" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#1E2A20" opacity="0.65">later</text>
+  </g>
+
+  <!-- extra unlocked slot above roth, representing no income limit -->
+  <g transform="translate(410,95)">
+    <path d="M-14,-6 L-14,-18 Q-14,-28 0,-28 Q14,-28 14,-18" fill="none" stroke="#54604F" stroke-width="3.2" stroke-linecap="round"/>
+    <rect x="-17" y="-8" width="34" height="22" rx="4" fill="none" stroke="#54604F" stroke-width="2.4" stroke-dasharray="3,3"/>
+  </g>
+  <text x="470" y="100" text-anchor="start" font-family="IBM Plex Mono, monospace" font-size="11" fill="#1E2A20" opacity="0.6">no limit</text>
+
+  <ellipse cx="300" cy="366" rx="160" ry="9" fill="url(#hatch46)" opacity="0.25"/>
+
+  <rect width="600" height="400" filter="url(#grain46)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
