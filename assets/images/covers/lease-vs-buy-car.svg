@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="A car on a timeline with two paths branching off it, one short loop labeled 3 years leading back to the start, one long road labeled 6 years leading to a car with a paid-off sign, illustrating that leasing and buying win under different ownership lengths">
+  <defs>
+    <pattern id="hatch48" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain48" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+
+  <!-- starting car, small, left -->
+  <g transform="translate(90,150)">
+    <rect x="-28" y="-14" width="56" height="20" rx="6" fill="#54604F" stroke="#1E2A20" stroke-width="2"/>
+    <path d="M-18,-14 L-10,-26 L14,-26 L22,-14 Z" fill="#54604F" stroke="#1E2A20" stroke-width="2"/>
+    <circle cx="-14" cy="8" r="7" fill="#DCE2D0" stroke="#1E2A20" stroke-width="2"/>
+    <circle cx="14" cy="8" r="7" fill="#DCE2D0" stroke="#1E2A20" stroke-width="2"/>
+  </g>
+
+  <!-- short loop path: lease, 3 years, loops back -->
+  <path d="M130,150 C 230,70 330,70 230,150" fill="none" stroke="#A9781F" stroke-width="3" stroke-dasharray="7,6"/>
+  <path d="M230,150 L220,142 M230,150 L220,158" fill="none" stroke="#A9781F" stroke-width="3" stroke-linecap="round"/>
+  <text x="230" y="55" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#A9781F">3 years · lease</text>
+
+  <!-- long road path: buy, 6 years, leads to paid-off car -->
+  <path d="M130,170 C 250,230 400,230 480,170" fill="none" stroke="#1B6E5C" stroke-width="3"/>
+  <text x="305" y="255" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#1B6E5C">6 years · buy</text>
+
+  <!-- ending car, larger, right, with paid-off badge -->
+  <g transform="translate(490,150)">
+    <rect x="-32" y="-16" width="64" height="24" rx="7" fill="#1B6E5C" stroke="#1E2A20" stroke-width="2.2"/>
+    <path d="M-20,-16 L-11,-30 L17,-30 L26,-16 Z" fill="#1B6E5C" stroke="#1E2A20" stroke-width="2.2"/>
+    <circle cx="-16" cy="10" r="8" fill="#DCE2D0" stroke="#1E2A20" stroke-width="2.2"/>
+    <circle cx="16" cy="10" r="8" fill="#DCE2D0" stroke="#1E2A20" stroke-width="2.2"/>
+    <g transform="translate(0,-56)">
+      <circle r="22" fill="#F2E6C8" stroke="#1E2A20" stroke-width="2.2"/>
+      <text x="0" y="-2" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="8" fill="#1E2A20">PAID</text>
+      <text x="0" y="8" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="8" fill="#1E2A20">OFF</text>
+    </g>
+  </g>
+
+  <ellipse cx="300" cy="300" rx="220" ry="10" fill="url(#hatch48)" opacity="0.25"/>
+
+  <rect width="600" height="400" filter="url(#grain48)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
