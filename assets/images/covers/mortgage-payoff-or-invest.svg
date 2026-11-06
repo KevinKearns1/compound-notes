@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="A house with a shrinking chain around it on one side of a scale, balanced against a small growing plant on the other side, illustrating the trade-off between paying down a mortgage faster and investing the difference">
+  <defs>
+    <pattern id="hatch50" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain50" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+
+  <!-- fulcrum -->
+  <path d="M300,248 L276,300 L324,300 Z" fill="#DCE2D0" stroke="#1E2A20" stroke-width="2.2"/>
+  <line x1="300" y1="200" x2="300" y2="248" stroke="#1E2A20" stroke-width="3"/>
+  <circle cx="300" cy="198" r="5" fill="#1E2A20"/>
+
+  <!-- level beam -->
+  <line x1="140" y1="198" x2="460" y2="198" stroke="#1E2A20" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- left pan: house with a shrinking chain -->
+  <path d="M140,198 L140,236" stroke="#1E2A20" stroke-width="2" opacity="0.6"/>
+  <path d="M112,236 Q140,250 168,236" fill="#DCE2D0" stroke="#1E2A20" stroke-width="2"/>
+  <g transform="translate(140,196)">
+    <rect x="-26" y="-28" width="52" height="32" fill="#1B6E5C" stroke="#1E2A20" stroke-width="2"/>
+    <path d="M-30,-28 L0,-50 L30,-28 Z" fill="#12503F" stroke="#1E2A20" stroke-width="2"/>
+    <rect x="-7" y="-13" width="14" height="17" fill="#E3E7D9" stroke="#1E2A20" stroke-width="1.4"/>
+    <!-- chain loosely around the house, with a gap to suggest shrinking -->
+    <g fill="none" stroke="#A9781F" stroke-width="2.6">
+      <ellipse cx="-24" cy="-6" rx="5" ry="4"/>
+      <ellipse cx="-16" cy="2" rx="5" ry="4"/>
+      <ellipse cx="18" cy="4" rx="5" ry="4"/>
+      <ellipse cx="26" cy="-4" rx="5" ry="4"/>
+    </g>
+  </g>
+
+  <!-- right pan: small growing plant -->
+  <path d="M460,198 L460,236" stroke="#1E2A20" stroke-width="2" opacity="0.6"/>
+  <path d="M432,236 Q460,250 488,236" fill="#DCE2D0" stroke="#1E2A20" stroke-width="2"/>
+  <g transform="translate(460,214)">
+    <rect x="-16" y="0" width="32" height="20" rx="3" fill="#DCE2D0" stroke="#1E2A20" stroke-width="1.8"/>
+    <path d="M0,0 C0,-14 -14,-18 -18,-30" fill="none" stroke="#54604F" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M0,0 C0,-16 12,-22 16,-34" fill="none" stroke="#54604F" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M0,0 C0,-18 0,-26 0,-38" fill="none" stroke="#54604F" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="-18" cy="-30" r="5" fill="#79843B"/>
+    <circle cx="16" cy="-34" r="5" fill="#79843B"/>
+    <circle cx="0" cy="-38" r="5" fill="#79843B"/>
+  </g>
+
+  <line x1="60" y1="330" x2="560" y2="330" stroke="#CAD0BC" stroke-width="2"/>
+  <text x="140" y="284" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" fill="#1E2A20" opacity="0.65">extra payments</text>
+  <text x="460" y="284" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" fill="#1E2A20" opacity="0.65">invest</text>
+
+  <ellipse cx="300" cy="336" rx="150" ry="9" fill="url(#hatch50)" opacity="0.25"/>
+
+  <rect width="600" height="400" filter="url(#grain50)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
