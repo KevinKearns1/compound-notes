@@ -12,7 +12,7 @@ reading_time: 7
 cover: /assets/images/covers/disability-insurance.svg
 image: /assets/images/covers/disability-insurance.png
 cover_alt: "A steady stream of coins flowing from a person toward a jar, interrupted by a gap where a small shield catches the coins and keeps them flowing, illustrating disability insurance replacing income during a gap in the ability to work"
-related: [term-vs-whole-life-insurance, emergency-fund-how-much, w2-vs-1099]
+related: [term-vs-whole-life-insurance, emergency-fund-how-much, w2-vs-1099, quarterly-estimated-taxes-safe-harbor]
 ---
 
 I [wrote about life insurance]({{ '/term-vs-whole-life-insurance/' | relative_url }}) without covering a related but very different kind of coverage: insurance that protects your income if you're still alive but unable to work. It gets skipped far more often than life insurance does, and the reasons people skip it are mostly based on assumptions that don't hold up.

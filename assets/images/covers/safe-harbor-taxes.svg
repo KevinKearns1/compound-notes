@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="A small boat sailing toward a lighthouse marked with a percentage sign, representing a safe harbor that protects against a penalty even in rough financial weather">
+  <defs>
+    <pattern id="hatch52" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain52" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+
+  <!-- choppy water -->
+  <g stroke="#CAD0BC" stroke-width="2.4" fill="none" opacity="0.7">
+    <path d="M40,260 Q70,252 100,260 T160,260 T220,260"/>
+    <path d="M40,278 Q70,270 100,278 T160,278 T220,278"/>
+    <path d="M380,260 Q410,252 440,260 T500,260 T560,260"/>
+  </g>
+  <line x1="40" y1="300" x2="560" y2="300" stroke="#1E2A20" stroke-width="2" opacity="0.5"/>
+
+  <!-- boat, left, sailing right toward the lighthouse -->
+  <g transform="translate(150,250)">
+    <path d="M-34,10 L34,10 L22,28 L-22,28 Z" fill="#54604F" stroke="#1E2A20" stroke-width="2.2"/>
+    <line x1="0" y1="10" x2="0" y2="-38" stroke="#1E2A20" stroke-width="2.4"/>
+    <path d="M0,-38 L30,2 L0,2 Z" fill="#1B6E5C" stroke="#1E2A20" stroke-width="2"/>
+  </g>
+
+  <!-- lighthouse, right, on a small rock, marked with a percent sign -->
+  <g transform="translate(470,260)">
+    <path d="M-20,20 L20,20 L14,0 L-14,0 Z" fill="#DCE2D0" stroke="#1E2A20" stroke-width="2"/>
+    <path d="M-14,0 L-10,-70 L10,-70 L14,0 Z" fill="#A9781F" stroke="#1E2A20" stroke-width="2.2"/>
+    <rect x="-10" y="-70" width="20" height="14" fill="#1B6E5C" stroke="#1E2A20" stroke-width="2"/>
+    <path d="M-12,-84 L0,-96 L12,-84 Z" fill="#1E2A20"/>
+    <rect x="-12" y="-30" width="24" height="10" fill="#F2E6C8" stroke="#1E2A20" stroke-width="1.6"/>
+    <text x="0" y="-22" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="11" fill="#1E2A20">%</text>
+    <!-- light beam -->
+    <path d="M-10,-60 L-90,-90 L-10,-50 Z" fill="#F2E6C8" opacity="0.4"/>
+  </g>
+
+  <ellipse cx="300" cy="320" rx="240" ry="10" fill="url(#hatch52)" opacity="0.25"/>
+
+  <rect width="600" height="400" filter="url(#grain52)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
