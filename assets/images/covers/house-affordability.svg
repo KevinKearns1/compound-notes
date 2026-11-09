@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="A house sized by two overlapping gauges, one labeled 28% and one labeled 36%, with the smaller gauge determining the actual size of the house, illustrating how income and existing debt together set a home-affordability ceiling">
+  <defs>
+    <pattern id="hatch53" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain53" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+
+  <!-- large outer gauge: 36% -->
+  <g transform="translate(300,210)">
+    <circle r="120" fill="none" stroke="#A9781F" stroke-width="3" stroke-dasharray="4,5" opacity="0.8"/>
+    <text x="0" y="-132" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" fill="#A9781F">36%</text>
+
+    <!-- smaller inner gauge: 28%, the binding constraint -->
+    <circle r="82" fill="none" stroke="#1B6E5C" stroke-width="3"/>
+    <text x="0" y="-94" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="13" fill="#1B6E5C">28%</text>
+  </g>
+
+  <!-- house sized to the smaller (binding) gauge -->
+  <g transform="translate(300,232)">
+    <rect x="-46" y="-6" width="92" height="56" fill="#1B6E5C" stroke="#1E2A20" stroke-width="2.4"/>
+    <path d="M-52,-6 L0,-46 L52,-6 Z" fill="#12503F" stroke="#1E2A20" stroke-width="2.4"/>
+    <rect x="-12" y="18" width="24" height="32" fill="#E3E7D9" stroke="#1E2A20" stroke-width="1.8"/>
+    <rect x="-34" y="4" width="16" height="16" fill="#E3E7D9" stroke="#1E2A20" stroke-width="1.4"/>
+    <rect x="18" y="4" width="16" height="16" fill="#E3E7D9" stroke="#1E2A20" stroke-width="1.4"/>
+  </g>
+
+  <ellipse cx="300" cy="346" rx="160" ry="9" fill="url(#hatch53)" opacity="0.25"/>
+
+  <rect width="600" height="400" filter="url(#grain53)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>

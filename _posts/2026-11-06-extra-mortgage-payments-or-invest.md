@@ -11,7 +11,7 @@ reading_time: 7
 cover: /assets/images/covers/mortgage-payoff-or-invest.svg
 image: /assets/images/covers/mortgage-payoff-or-invest.png
 cover_alt: "A house with a shrinking chain around it on one side of a scale, balanced against a small growing plant on the other side, illustrating the trade-off between paying down a mortgage faster and investing the difference"
-related: [pay-off-student-loans-or-invest, what-is-apr, emergency-fund-how-much]
+related: [pay-off-student-loans-or-invest, what-is-apr, emergency-fund-how-much, how-much-house-can-you-afford]
 ---
 
 I worked through [student loans vs. investing]({{ '/pay-off-student-loans-or-invest/' | relative_url }}) with real numbers and specifically left mortgages out, promising they deserved their own answer. They do — a mortgage brings its own wrinkles a student loan doesn't have, and at a typical rate, the comparison is close enough that the actual math matters more than the instinct either way.
