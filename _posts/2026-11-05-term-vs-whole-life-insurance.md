@@ -11,7 +11,7 @@ reading_time: 7
 cover: /assets/images/covers/term-vs-whole-life.svg
 image: /assets/images/covers/term-vs-whole-life.png
 cover_alt: "A simple umbrella labeled term next to a much larger, heavier umbrella labeled whole life with a small growing plant bundled inside it, illustrating that whole life insurance bundles protection with an expensive savings component"
-related: [what-is-compound-interest, dollar-cost-averaging, index-funds-vs-individual-stocks, disability-insurance-explained]
+related: [what-is-compound-interest, dollar-cost-averaging, index-funds-vs-individual-stocks, disability-insurance-explained, renters-insurance-explained]
 ---
 
 Life insurance doesn't fit neatly into the retirement-account or brokerage-account posts I've already written, but it's a real financial decision a lot of people face with dependents or a mortgage, and it gets sold with the same confusing bundling as a lot of financial products — two fundamentally different things, priced as one.

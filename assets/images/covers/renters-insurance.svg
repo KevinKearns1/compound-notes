@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="An apartment building with a small shield covering only one unit's belongings inside it, while the building itself sits under a separate, larger umbrella, illustrating that a landlord's insurance covers the building, not a tenant's possessions">
+  <defs>
+    <pattern id="hatch55" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain55" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+
+  <!-- large umbrella over the whole building, representing the landlord's policy -->
+  <g transform="translate(300,140)">
+    <path d="M-150,30 Q-150,-70 0,-74 Q150,-70 150,30 Q100,8 50,30 Q0,8 -50,30 Q-100,8 -150,30 Z"
+          fill="#A9781F" opacity="0.55" stroke="#1E2A20" stroke-width="2.2"/>
+    <line x1="0" y1="-74" x2="0" y2="30" stroke="#1E2A20" stroke-width="2" opacity="0.6"/>
+    <text x="0" y="-84" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#1E2A20" opacity="0.6">landlord's policy</text>
+  </g>
+
+  <!-- apartment building -->
+  <g transform="translate(300,220)">
+    <rect x="-90" y="-80" width="180" height="150" fill="#54604F" stroke="#1E2A20" stroke-width="2.4"/>
+    <g fill="#DCE2D0" stroke="#1E2A20" stroke-width="1.4">
+      <rect x="-72" y="-62" width="28" height="24"/>
+      <rect x="-14" y="-62" width="28" height="24"/>
+      <rect x="44" y="-62" width="28" height="24"/>
+      <rect x="-72" y="-16" width="28" height="24"/>
+      <rect x="-14" y="-16" width="28" height="24"/>
+      <rect x="44" y="-16" width="28" height="24"/>
+      <rect x="-72" y="30" width="28" height="24"/>
+      <rect x="44" y="30" width="28" height="24"/>
+    </g>
+    <!-- the one unit with a small shield guarding its belongings -->
+    <g transform="translate(0,42)">
+      <rect x="-14" y="-12" width="28" height="24" fill="#1B6E5C" opacity="0.5" stroke="#1E2A20" stroke-width="1.4"/>
+      <path d="M0,-30 L13,-24 L13,-10 Q13,2 0,8 Q-13,2 -13,-10 L-13,-24 Z" fill="#1B6E5C" stroke="#1E2A20" stroke-width="2"/>
+      <path d="M-5,-10 L-1,-5 L8,-16" fill="none" stroke="#F6F7F0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <text x="300" y="356" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#1E2A20" opacity="0.6">your policy covers only what's inside your unit</text>
+
+  <ellipse cx="300" cy="320" rx="190" ry="9" fill="url(#hatch55)" opacity="0.25"/>
+
+  <rect width="600" height="400" filter="url(#grain55)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
