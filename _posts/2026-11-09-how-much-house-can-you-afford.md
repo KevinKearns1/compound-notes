@@ -12,7 +12,7 @@ reading_time: 7
 cover: /assets/images/covers/house-affordability.svg
 image: /assets/images/covers/house-affordability.png
 cover_alt: "A house sized by two overlapping gauges, one labeled 28% and one labeled 36%, with the smaller gauge determining the actual size of the house, illustrating how income and existing debt together set a home-affordability ceiling"
-related: [renting-vs-buying-a-home, what-is-apr, extra-mortgage-payments-or-invest]
+related: [renting-vs-buying-a-home, what-is-apr, extra-mortgage-payments-or-invest, homeowners-insurance-explained]
 ---
 
 I worked through [renting vs. buying]({{ '/renting-vs-buying-a-home/' | relative_url }}) assuming the home price in the comparison was already a reasonable one — I never actually explained how lenders, and most financial planning advice, land on what "reasonable" means. There's a specific, widely used rule for it, and the part that surprises people isn't the rule itself — it's how much an existing car payment or student loan can shrink the number.

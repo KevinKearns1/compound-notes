@@ -11,7 +11,7 @@ reading_time: 6
 cover: /assets/images/covers/renters-insurance.svg
 image: /assets/images/covers/renters-insurance.png
 cover_alt: "An apartment building with a small shield covering only one unit's belongings inside it, while the building itself sits under a separate, larger umbrella, illustrating that a landlord's insurance covers the building, not a tenant's possessions"
-related: [first-paycheck-what-to-do, disability-insurance-explained, term-vs-whole-life-insurance, emergency-fund-how-much]
+related: [first-paycheck-what-to-do, disability-insurance-explained, term-vs-whole-life-insurance, emergency-fund-how-much, homeowners-insurance-explained]
 ---
 
 I've covered [life insurance]({{ '/term-vs-whole-life-insurance/' | relative_url }}) and [disability insurance]({{ '/disability-insurance-explained/' | relative_url }}) without covering the one most renters actually encounter first — cheaper than both, and skipped for a reason that doesn't hold up once you know what a landlord's own policy actually protects.
