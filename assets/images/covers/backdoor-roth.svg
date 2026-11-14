@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="A locked front door labeled Roth IRA with a side door propped open behind it, with a warning sign on the side door showing a mixed pool of coins, illustrating the backdoor Roth workaround and the pro-rata rule that can tax it">
+  <defs>
+    <pattern id="hatch57" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain57" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+
+  <!-- front door, locked -->
+  <g transform="translate(220,220)">
+    <rect x="-46" y="-90" width="92" height="150" rx="4" fill="#54604F" stroke="#1E2A20" stroke-width="2.4"/>
+    <circle cx="28" cy="-10" r="4.5" fill="#1E2A20"/>
+    <!-- padlock over the door -->
+    <g transform="translate(0,-108)">
+      <path d="M-10,-2 L-10,-12 Q-10,-22 0,-22 Q10,-22 10,-12 L10,-2" fill="none" stroke="#A9781F" stroke-width="3.6" stroke-linecap="round"/>
+      <rect x="-13" y="-3" width="26" height="20" rx="3" fill="#A9781F" stroke="#1E2A20" stroke-width="2"/>
+    </g>
+    <text x="0" y="78" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#1E2A20" opacity="0.6">Roth IRA</text>
+  </g>
+
+  <!-- side door, propped open, set further back -->
+  <g transform="translate(400,235)">
+    <rect x="-34" y="-72" width="68" height="120" rx="4" fill="#1B6E5C" opacity="0.85" stroke="#1E2A20" stroke-width="2.2"/>
+    <path d="M34,-72 L62,-80 L62,46 L34,48 Z" fill="#DCE2D0" opacity="0.5" stroke="#1E2A20" stroke-width="1.6"/>
+    <text x="0" y="62" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#1E2A20" opacity="0.6">traditional IRA</text>
+
+    <!-- warning sign hanging on the side door -->
+    <g transform="translate(-10,-20)">
+      <rect x="-24" y="-16" width="48" height="32" rx="4" fill="#F2E6C8" stroke="#1E2A20" stroke-width="2"/>
+      <g fill="#A9781F" stroke="#1E2A20" stroke-width="1">
+        <circle cx="-10" cy="2" r="6"/>
+        <circle cx="4" cy="-4" r="6"/>
+        <circle cx="10" cy="6" r="6"/>
+      </g>
+    </g>
+  </g>
+
+  <text x="300" y="356" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#1E2A20" opacity="0.6">pro-rata pools every IRA together</text>
+
+  <ellipse cx="300" cy="332" rx="200" ry="9" fill="url(#hatch57)" opacity="0.25"/>
+
+  <rect width="600" height="400" filter="url(#grain57)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>

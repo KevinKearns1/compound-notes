@@ -12,7 +12,7 @@ reading_time: 7
 cover: /assets/images/covers/traditional-vs-roth-401k.svg
 image: /assets/images/covers/traditional-vs-roth-401k.png
 cover_alt: "Two slots feeding into the same paycheck envelope, one labeled now and one labeled later, illustrating the same tax tradeoff inside a 401(k) as inside an IRA, plus an extra unlocked slot representing no income limit"
-related: [traditional-vs-roth-ira, 401k-employer-match, what-is-a-roth-ira]
+related: [traditional-vs-roth-ira, 401k-employer-match, what-is-a-roth-ira, backdoor-roth-ira-explained]
 ---
 
 I worked through [Traditional vs. Roth IRA]({{ '/traditional-vs-roth-ira/' | relative_url }}) with the actual math and ended that post by noting that employer 401(k) plans increasingly offer the same Traditional-or-Roth choice. I never came back to it. The core tax logic transfers over directly — but a 401(k) adds two differences that change the decision for some people, and one of them matters a lot more than it sounds.
