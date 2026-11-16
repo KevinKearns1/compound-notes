@@ -12,7 +12,7 @@ reading_time: 7
 cover: /assets/images/covers/homeowners-insurance.svg
 image: /assets/images/covers/homeowners-insurance.png
 cover_alt: "A house with a shield over it labeled dwelling, next to a smaller separate stack of coins flowing monthly into the same envelope as a mortgage payment, illustrating homeowners insurance bundled into an escrowed monthly payment"
-related: [renters-insurance-explained, how-much-house-can-you-afford, renting-vs-buying-a-home]
+related: [renters-insurance-explained, how-much-house-can-you-afford, renting-vs-buying-a-home, umbrella-insurance-explained]
 ---
 
 The [house-affordability post]({{ '/how-much-house-can-you-afford/' | relative_url }}) set aside roughly 15% of a mortgage payment for "taxes and insurance" without ever explaining what that insurance actually is. It's the homeowner's counterpart to [renters insurance]({{ '/renters-insurance-explained/' | relative_url }}) — covering a lot of the same ground, with one major difference: it isn't optional the way renters insurance often is.
