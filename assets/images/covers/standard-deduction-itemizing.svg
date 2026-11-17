@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Two paths to a tax return, one a flat straight road requiring no stops, the other a winding road with several small stops to collect receipts, illustrating the choice between the standard deduction and itemizing">
+  <defs>
+    <pattern id="hatch60" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain60" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+
+  <!-- top: straight flat road, standard deduction -->
+  <line x1="70" y1="110" x2="530" y2="110" stroke="#1B6E5C" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="70" cy="110" r="7" fill="#1B6E5C"/>
+  <circle cx="530" cy="110" r="9" fill="#1E2A20"/>
+  <text x="300" y="92" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#1E2A20" opacity="0.65">standard deduction — no stops</text>
+
+  <!-- bottom: winding road with small stops, itemizing -->
+  <path d="M70,220 Q160,190 220,220 T 350,220 T 480,220 L530,220" fill="none" stroke="#A9781F" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="70" cy="220" r="7" fill="#A9781F"/>
+  <circle cx="220" cy="220" r="6" fill="#1E2A20"/>
+  <circle cx="350" cy="220" r="6" fill="#1E2A20"/>
+  <circle cx="480" cy="220" r="6" fill="#1E2A20"/>
+  <circle cx="530" cy="220" r="9" fill="#1E2A20"/>
+  <text x="300" y="256" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#1E2A20" opacity="0.65">itemizing — a stop for each receipt</text>
+
+  <ellipse cx="300" cy="300" rx="220" ry="9" fill="url(#hatch60)" opacity="0.2"/>
+
+  <rect width="600" height="400" filter="url(#grain60)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
