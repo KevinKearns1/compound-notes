@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="An entire mortgage loan being swapped out for a larger one at a new rate, versus a small additional slice added on top of an untouched original loan, illustrating that a cash-out refinance resets the rate on the whole balance, not just the new money borrowed">
+  <defs>
+    <pattern id="hatch62" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain62" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+
+  <!-- left: refinance, whole bar swapped to the new rate color -->
+  <g transform="translate(160,170)">
+    <rect x="-70" y="0" width="140" height="36" rx="4" fill="#A9781F" stroke="#1E2A20" stroke-width="2.2"/>
+    <text x="0" y="24" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#F6F7F0">new rate</text>
+    <text x="0" y="-14" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#1E2A20" opacity="0.6">entire balance</text>
+    <text x="0" y="62" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#1E2A20" opacity="0.65">cash-out refi</text>
+  </g>
+
+  <!-- right: HELOC, original bar untouched plus small new slice -->
+  <g transform="translate(430,170)">
+    <rect x="-70" y="0" width="140" height="36" rx="4" fill="#1B6E5C" stroke="#1E2A20" stroke-width="2.2"/>
+    <text x="-14" y="24" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#F6F7F0">old rate</text>
+    <rect x="42" y="0" width="28" height="36" rx="4" fill="#A9781F" stroke="#1E2A20" stroke-width="2.2"/>
+    <text x="-14" y="-14" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#1E2A20" opacity="0.6">untouched</text>
+    <text x="0" y="62" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#1E2A20" opacity="0.65">HELOC / home equity loan</text>
+  </g>
+
+  <ellipse cx="300" cy="280" rx="220" ry="9" fill="url(#hatch62)" opacity="0.2"/>
+
+  <rect width="600" height="400" filter="url(#grain62)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>

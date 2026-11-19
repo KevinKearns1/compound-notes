@@ -11,7 +11,7 @@ reading_time: 7
 cover: /assets/images/covers/heloc-vs-home-equity-loan.svg
 image: /assets/images/covers/heloc-vs-home-equity-loan.png
 cover_alt: "A water faucet labeled HELOC that a homeowner can turn on and off as needed, next to a single filled bucket labeled home equity loan handed over all at once, illustrating the difference between a revolving credit line and a lump-sum loan"
-related: [extra-mortgage-payments-or-invest, how-much-house-can-you-afford, emergency-fund-how-much]
+related: [extra-mortgage-payments-or-invest, how-much-house-can-you-afford, emergency-fund-how-much, cash-out-refinance-explained]
 ---
 
 I mentioned [borrowing against home equity]({{ '/extra-mortgage-payments-or-invest/' | relative_url }}) as one way to get cash back out of a paid-down mortgage, without explaining that there are two genuinely different products that do this — and one of them has a payment change built in that catches people off guard years after they signed up for it.
