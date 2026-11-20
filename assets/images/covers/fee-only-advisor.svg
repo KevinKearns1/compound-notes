@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Three advisors each pointing toward a different source of payment — one hand reaching only from the client, one hand reaching from both the client and a product shelf, one hand reaching only from the product shelf — illustrating fee-only, fee-based, and commission pay structures">
+  <defs>
+    <pattern id="hatch63" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain63" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+    <g id="advisor">
+      <circle cx="0" cy="-26" r="13" fill="#54604F" stroke="#1E2A20" stroke-width="2"/>
+      <path d="M-16,24 Q-16,-6 0,-6 Q16,-6 16,24 Z" fill="#54604F" stroke="#1E2A20" stroke-width="2"/>
+    </g>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+
+  <!-- three advisor figures -->
+  <use href="#advisor" transform="translate(140,180)"/>
+  <use href="#advisor" transform="translate(300,180)"/>
+  <use href="#advisor" transform="translate(460,180)"/>
+
+  <!-- advisor 1: fee-only, single arrow from client only -->
+  <circle cx="140" cy="260" r="10" fill="#1B6E5C" stroke="#1E2A20" stroke-width="1.8"/>
+  <path d="M140,250 L140,214" fill="none" stroke="#1B6E5C" stroke-width="2.6" marker-end="url(#arrow63)"/>
+  <text x="140" y="100" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#1E2A20" opacity="0.65">fee-only</text>
+  <text x="140" y="285" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9" fill="#1E2A20" opacity="0.5">client</text>
+
+  <!-- advisor 2: fee-based, arrows from both client and product shelf -->
+  <circle cx="265" cy="260" r="10" fill="#1B6E5C" stroke="#1E2A20" stroke-width="1.8"/>
+  <path d="M265,250 L290,214" fill="none" stroke="#1B6E5C" stroke-width="2.4" marker-end="url(#arrow63)"/>
+  <rect x="325" y="240" width="30" height="24" fill="#A9781F" stroke="#1E2A20" stroke-width="1.8"/>
+  <path d="M335,240 L310,214" fill="none" stroke="#A9781F" stroke-width="2.4" marker-end="url(#arrowgold63)"/>
+  <text x="300" y="100" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#1E2A20" opacity="0.65">fee-based</text>
+  <text x="265" y="285" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9" fill="#1E2A20" opacity="0.5">client</text>
+  <text x="340" y="278" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9" fill="#1E2A20" opacity="0.5">products</text>
+
+  <!-- advisor 3: commission, single arrow from product shelf only -->
+  <rect x="445" y="240" width="30" height="24" fill="#A9781F" stroke="#1E2A20" stroke-width="1.8"/>
+  <path d="M460,240 L460,214" fill="none" stroke="#A9781F" stroke-width="2.6" marker-end="url(#arrowgold63)"/>
+  <text x="460" y="100" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#1E2A20" opacity="0.65">commission</text>
+  <text x="460" y="278" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9" fill="#1E2A20" opacity="0.5">products</text>
+
+  <defs>
+    <marker id="arrow63" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#1B6E5C"/>
+    </marker>
+    <marker id="arrowgold63" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#A9781F"/>
+    </marker>
+  </defs>
+
+  <ellipse cx="300" cy="300" rx="220" ry="9" fill="url(#hatch63)" opacity="0.2"/>
+
+  <rect width="600" height="400" filter="url(#grain63)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
