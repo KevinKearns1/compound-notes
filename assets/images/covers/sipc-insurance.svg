@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="A shield protecting a brokerage building from collapsing, standing next to a stock chart falling through a gap in that same shield, illustrating that SIPC protects against a brokerage's failure but not against investment losses">
+  <defs>
+    <pattern id="hatch64" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain64" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+
+  <!-- left: shield with a notch cut in its upper-right edge, building safe inside -->
+  <path d="M190,80 L270,108 L270,150 L310,150 L270,185 L270,210 Q270,280 190,320 Q110,280 110,210 L110,108 Z"
+        fill="#1B6E5C" opacity="0.5" stroke="#1E2A20" stroke-width="2.4"/>
+
+  <g transform="translate(190,235)">
+    <rect x="-44" y="-62" width="88" height="88" fill="#54604F" stroke="#1E2A20" stroke-width="2.2"/>
+    <path d="M-50,-62 L0,-90 L50,-62 Z" fill="#12503F" stroke="#1E2A20" stroke-width="2.2"/>
+    <g fill="#DCE2D0" stroke="#1E2A20" stroke-width="1.3">
+      <rect x="-28" y="-44" width="14" height="14"/>
+      <rect x="-7" y="-44" width="14" height="14"/>
+      <rect x="14" y="-44" width="14" height="14"/>
+      <rect x="-28" y="-20" width="14" height="14"/>
+      <rect x="14" y="-20" width="14" height="14"/>
+    </g>
+    <rect x="-8" y="-18" width="16" height="18" fill="#E3E7D9" stroke="#1E2A20" stroke-width="1.5"/>
+  </g>
+
+  <!-- right: stock line entering through the shield's notch and falling, outside the building entirely -->
+  <path d="M270,150 L310,150" fill="none" stroke="#1E2A20" stroke-width="2" stroke-dasharray="3,3" opacity="0.5"/>
+  <path d="M340,120 L380,150 L410,100 L440,160 L470,190 L495,260 L510,330"
+        fill="none" stroke="#A9781F" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="190" y="60" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#1E2A20" opacity="0.65">the firm</text>
+  <text x="460" y="60" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#1E2A20" opacity="0.65">your investments</text>
+
+  <ellipse cx="300" cy="350" rx="190" ry="9" fill="url(#hatch64)" opacity="0.2"/>
+
+  <rect width="600" height="400" filter="url(#grain64)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>
