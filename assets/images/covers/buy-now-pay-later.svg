@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Several small, identical payment-plan icons scattered across different shopping apps, with a single large hidden total sitting beneath all of them, invisible to any one app alone, illustrating phantom debt from stacking multiple buy now pay later plans">
+  <defs>
+    <pattern id="hatch66" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain66" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+    <g id="appcard">
+      <rect x="-28" y="-40" width="56" height="80" rx="6" fill="#DCE2D0" stroke="#1E2A20" stroke-width="2"/>
+      <rect x="-18" y="-26" width="36" height="22" rx="2" fill="#1B6E5C" opacity="0.8"/>
+      <g stroke="#1E2A20" stroke-width="1.4" opacity="0.5">
+        <circle cx="-14" cy="6" r="3"/>
+        <circle cx="-2" cy="6" r="3"/>
+        <circle cx="10" cy="6" r="3"/>
+        <circle cx="18" cy="6" r="3" fill="none"/>
+      </g>
+      <line x1="-18" y1="20" x2="18" y2="20" stroke="#1E2A20" stroke-width="1.4" opacity="0.4"/>
+    </g>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+
+  <!-- four small phone/app cards, each with its own small payment-plan icon -->
+  <use href="#appcard" transform="translate(120,130)"/>
+  <use href="#appcard" transform="translate(250,110)"/>
+  <use href="#appcard" transform="translate(370,130)"/>
+  <use href="#appcard" transform="translate(480,105)"/>
+
+  <!-- dashed lines converging down to one hidden total -->
+  <path d="M120,170 L300,270" fill="none" stroke="#1E2A20" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.4"/>
+  <path d="M250,150 L300,270" fill="none" stroke="#1E2A20" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.4"/>
+  <path d="M370,170 L300,270" fill="none" stroke="#1E2A20" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.4"/>
+  <path d="M480,145 L300,270" fill="none" stroke="#1E2A20" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.4"/>
+
+  <!-- the hidden total, drawn larger and faded, as if nobody is actually looking at it -->
+  <g transform="translate(300,300)">
+    <rect x="-70" y="-24" width="140" height="48" rx="6" fill="#A9781F" opacity="0.35" stroke="#1E2A20" stroke-width="2" stroke-dasharray="5,4"/>
+    <text x="0" y="7" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="14" fill="#1E2A20" opacity="0.6">total: ?</text>
+  </g>
+
+  <ellipse cx="300" cy="360" rx="200" ry="9" fill="url(#hatch66)" opacity="0.2"/>
+
+  <rect width="600" height="400" filter="url(#grain66)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>

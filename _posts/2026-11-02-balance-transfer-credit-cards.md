@@ -11,7 +11,7 @@ reading_time: 7
 cover: /assets/images/covers/balance-transfer.svg
 image: /assets/images/covers/balance-transfer.png
 cover_alt: "A pile of debt moving across a bridge toward a sign reading 0% for a limited time, with a small toll booth charging a one-time fee to cross"
-related: [what-is-apr, credit-card-rewards-worth-it, what-actually-moves-your-credit-score]
+related: [what-is-apr, credit-card-rewards-worth-it, what-actually-moves-your-credit-score, buy-now-pay-later-risks]
 ---
 
 I've written about [APR]({{ '/what-is-apr/' | relative_url }}) and what carrying a balance actually costs, and about [when credit card rewards are worth it]({{ '/credit-card-rewards-worth-it/' | relative_url }}), without ever covering the tool most directly built for someone who's already carrying a balance: a 0% balance transfer card. It charges a fee to do something that sounds almost too simple — move the debt somewhere that charges no interest for a while.
