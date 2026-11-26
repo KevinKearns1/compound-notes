@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Two jars side by side labeled SEP-IRA and Solo 401(k), the SEP-IRA jar filled partway with one color and the Solo 401(k) jar filled much higher with two stacked colors representing an employee and an employer contribution">
+  <defs>
+    <pattern id="hatch68" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#1E2A20" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <filter id="grain68" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" fill="#E3E7D9"/>
+
+  <!-- left: SEP-IRA jar, one fill bucket, filled to a lower line -->
+  <g transform="translate(30,0)">
+    <path d="M124,165 L176,165 L164,300 Q164,310 154,310 L146,310 Q136,310 136,300 Z" fill="#DCE2D0" stroke="#1E2A20" stroke-width="2.4"/>
+    <ellipse cx="150" cy="165" rx="26" ry="8" fill="#CAD0BC" stroke="#1E2A20" stroke-width="2.2" opacity="0.5"/>
+    <g fill="#79843B" opacity="0.9">
+      <ellipse cx="150" cy="258" rx="20" ry="6"/>
+      <ellipse cx="150" cy="274" rx="19.5" ry="6"/>
+      <ellipse cx="150" cy="290" rx="19" ry="6"/>
+    </g>
+    <text x="150" y="340" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#1E2A20" opacity="0.65">SEP-IRA</text>
+    <text x="150" y="358" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#1E2A20" opacity="0.55">one bucket</text>
+  </g>
+
+  <!-- right: Solo 401(k) jar, two stacked buckets, filled much higher -->
+  <g transform="translate(270,0)">
+    <path d="M124,165 L176,165 L164,300 Q164,310 154,310 L146,310 Q136,310 136,300 Z" fill="#DCE2D0" stroke="#1E2A20" stroke-width="2.4"/>
+    <ellipse cx="150" cy="165" rx="26" ry="8" fill="#CAD0BC" stroke="#1E2A20" stroke-width="2.2" opacity="0.5"/>
+    <!-- employer bucket, bottom, same color/height as the SEP jar -->
+    <g fill="#79843B" opacity="0.9">
+      <ellipse cx="150" cy="258" rx="20" ry="6"/>
+      <ellipse cx="150" cy="274" rx="19.5" ry="6"/>
+      <ellipse cx="150" cy="290" rx="19" ry="6"/>
+    </g>
+    <!-- employee deferral bucket, stacked on top, reaching much higher -->
+    <g fill="#1B6E5C" opacity="0.9">
+      <ellipse cx="150" cy="196" rx="20.6" ry="6"/>
+      <ellipse cx="150" cy="212" rx="20.3" ry="6"/>
+      <ellipse cx="150" cy="228" rx="20" ry="6"/>
+      <ellipse cx="150" cy="244" rx="19.7" ry="6"/>
+    </g>
+    <text x="150" y="340" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#1E2A20" opacity="0.65">SOLO 401(K)</text>
+    <text x="150" y="358" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#1E2A20" opacity="0.55">two buckets</text>
+  </g>
+
+  <!-- small legend dots for the two solo 401k colors -->
+  <g font-family="IBM Plex Mono, monospace" font-size="10" fill="#1E2A20" opacity="0.6">
+    <circle cx="470" cy="80" r="5" fill="#1B6E5C"/>
+    <text x="482" y="84">employee deferral</text>
+    <circle cx="470" cy="98" r="5" fill="#79843B"/>
+    <text x="482" y="102">employer share</text>
+  </g>
+
+  <line x1="60" y1="356" x2="560" y2="356" stroke="#CAD0BC" stroke-width="2"/>
+
+  <ellipse cx="300" cy="360" rx="180" ry="9" fill="url(#hatch68)" opacity="0.25"/>
+
+  <rect width="600" height="400" filter="url(#grain68)" style="mix-blend-mode:multiply" opacity="0.5"/>
+</svg>

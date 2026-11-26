@@ -11,7 +11,7 @@ reading_time: 7
 cover: /assets/images/covers/safe-harbor-taxes.svg
 image: /assets/images/covers/safe-harbor-taxes.png
 cover_alt: "A small boat sailing toward a lighthouse marked with a percentage sign, representing a safe harbor that protects against a penalty even in rough financial weather"
-related: [w2-vs-1099, high-yield-savings-accounts, disability-insurance-explained, standard-deduction-vs-itemizing]
+related: [w2-vs-1099, high-yield-savings-accounts, disability-insurance-explained, standard-deduction-vs-itemizing, sep-ira-vs-solo-401k]
 ---
 
 I mentioned [quarterly estimated taxes]({{ '/w2-vs-1099/' | relative_url }}) as a real requirement for most 1099 earners without explaining the part that actually matters: how much to pay, and what happens if the estimate is wrong. There's a specific IRS rule that answers both questions precisely, and it's a lot more forgiving than most people assume.
