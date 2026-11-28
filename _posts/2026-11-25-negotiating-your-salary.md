@@ -11,7 +11,7 @@ reading_time: 7
 cover: /assets/images/covers/salary-negotiation.svg
 image: /assets/images/covers/salary-negotiation.png
 cover_alt: "Two paths branching from a single starting salary point, one flat and one angled slightly higher, growing further apart year by year as both rise by the same percentage, illustrating how a single negotiated increase compounds over a career"
-related: [first-paycheck-what-to-do, what-is-compound-interest, 401k-employer-match]
+related: [first-paycheck-what-to-do, what-is-compound-interest, 401k-employer-match, lifestyle-creep-explained]
 ---
 
 I wrote about [what to do with your first paycheck]({{ '/first-paycheck-what-to-do/' | relative_url }}) without ever covering the conversation that determines how big that paycheck actually is in the first place. A single negotiated increase doesn't just change one number — it compounds further than it feels like it should in the moment.
